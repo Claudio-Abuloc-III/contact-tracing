@@ -131,9 +131,9 @@
             // 
             // Occupationbutton
             // 
-            this.Occupationbutton.Location = new System.Drawing.Point(12, 179);
+            this.Occupationbutton.Location = new System.Drawing.Point(4, 179);
             this.Occupationbutton.Name = "Occupationbutton";
-            this.Occupationbutton.Size = new System.Drawing.Size(88, 31);
+            this.Occupationbutton.Size = new System.Drawing.Size(96, 31);
             this.Occupationbutton.TabIndex = 9;
             this.Occupationbutton.Text = "Occupation";
             this.Occupationbutton.UseVisualStyleBackColor = true;

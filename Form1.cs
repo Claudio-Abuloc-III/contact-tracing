@@ -32,7 +32,7 @@ namespace Contact_Tracing_Form
             file.WriteLine("Date: " + DatetextBox.Text);
             file.WriteLine("Temperature: " + TemperaturetextBox.Text);
             file.WriteLine("Time In: " + TimeIntextBox.Text);
-            file.WriteLine("Time Out: " + TimeIntextBox.Text);
+            file.WriteLine("Time Out: " + TimeOuttextBox.Text);
             file.Close();
         }
     }
