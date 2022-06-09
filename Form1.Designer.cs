@@ -63,6 +63,7 @@
             this.Savebutton.TabIndex = 0;
             this.Savebutton.Text = "Save";
             this.Savebutton.UseVisualStyleBackColor = true;
+            this.Savebutton.Click += new System.EventHandler(this.Savebutton_Click);
             // 
             // NametextBox
             // 
