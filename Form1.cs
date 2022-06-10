@@ -28,7 +28,7 @@ namespace Contact_Tracing_Form
             file.WriteLine("Birthday: " + BirthdaytextBox.Text);
             file.WriteLine("Address: " + AddresstextBox.Text);
             file.WriteLine("Contact No: " + ContactNotextBox.Text);
-            file.WriteLine("Occupation: " + OccupationtextBox.Text);
+            file.WriteLine("Year+Section: " + YeartextBox.Text);
             file.WriteLine("Email: " + EmailtextBox.Text);
             file.WriteLine("Date: " + DatetextBox.Text);
             file.WriteLine("Temperature: " + TemperaturetextBox.Text);
@@ -194,5 +194,5 @@ namespace Contact_Tracing_Form
 
 
     }
-    }
 }
+
