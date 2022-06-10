@@ -39,9 +39,7 @@
             this.AgetextBox = new System.Windows.Forms.TextBox();
             this.DatetextBox = new System.Windows.Forms.TextBox();
             this.TemperaturetextBox = new System.Windows.Forms.TextBox();
-            this.TimeInbutton = new System.Windows.Forms.Button();
             this.TimeIntextBox = new System.Windows.Forms.TextBox();
-            this.TimeOutbutton = new System.Windows.Forms.Button();
             this.TimeOuttextBox = new System.Windows.Forms.TextBox();
             this.Namelabel = new System.Windows.Forms.Label();
             this.Birthdaylabel = new System.Windows.Forms.Label();
@@ -51,8 +49,10 @@
             this.Emaillabel = new System.Windows.Forms.Label();
             this.Sexlabel = new System.Windows.Forms.Label();
             this.Agelabel = new System.Windows.Forms.Label();
-            this.Temperaturebutton = new System.Windows.Forms.Button();
-            this.Datebutton = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Savebutton
@@ -69,102 +69,85 @@
             // 
             this.NametextBox.Location = new System.Drawing.Point(106, 35);
             this.NametextBox.Name = "NametextBox";
-            this.NametextBox.Size = new System.Drawing.Size(384, 22);
+            this.NametextBox.Size = new System.Drawing.Size(350, 22);
             this.NametextBox.TabIndex = 1;
             // 
             // BirthdaytextBox
             // 
             this.BirthdaytextBox.Location = new System.Drawing.Point(106, 72);
             this.BirthdaytextBox.Name = "BirthdaytextBox";
-            this.BirthdaytextBox.Size = new System.Drawing.Size(384, 22);
+            this.BirthdaytextBox.Size = new System.Drawing.Size(350, 22);
             this.BirthdaytextBox.TabIndex = 4;
             // 
             // AddresstextBox
             // 
             this.AddresstextBox.Location = new System.Drawing.Point(106, 109);
             this.AddresstextBox.Name = "AddresstextBox";
-            this.AddresstextBox.Size = new System.Drawing.Size(384, 22);
+            this.AddresstextBox.Size = new System.Drawing.Size(350, 22);
             this.AddresstextBox.TabIndex = 6;
             // 
             // ContactNotextBox
             // 
             this.ContactNotextBox.Location = new System.Drawing.Point(106, 146);
             this.ContactNotextBox.Name = "ContactNotextBox";
-            this.ContactNotextBox.Size = new System.Drawing.Size(384, 22);
+            this.ContactNotextBox.Size = new System.Drawing.Size(350, 22);
             this.ContactNotextBox.TabIndex = 8;
             // 
             // OccupationtextBox
             // 
             this.OccupationtextBox.Location = new System.Drawing.Point(106, 183);
             this.OccupationtextBox.Name = "OccupationtextBox";
-            this.OccupationtextBox.Size = new System.Drawing.Size(384, 22);
+            this.OccupationtextBox.Size = new System.Drawing.Size(350, 22);
             this.OccupationtextBox.TabIndex = 10;
             // 
             // EmailtextBox
             // 
             this.EmailtextBox.Location = new System.Drawing.Point(106, 220);
             this.EmailtextBox.Name = "EmailtextBox";
-            this.EmailtextBox.Size = new System.Drawing.Size(384, 22);
+            this.EmailtextBox.Size = new System.Drawing.Size(350, 22);
             this.EmailtextBox.TabIndex = 12;
             // 
             // SextextBox
             // 
-            this.SextextBox.Location = new System.Drawing.Point(537, 35);
+            this.SextextBox.Location = new System.Drawing.Point(590, 32);
             this.SextextBox.Name = "SextextBox";
-            this.SextextBox.Size = new System.Drawing.Size(167, 22);
+            this.SextextBox.Size = new System.Drawing.Size(271, 22);
             this.SextextBox.TabIndex = 14;
+            this.SextextBox.TextChanged += new System.EventHandler(this.SextextBox_TextChanged);
             // 
             // AgetextBox
             // 
-            this.AgetextBox.Location = new System.Drawing.Point(537, 72);
+            this.AgetextBox.Location = new System.Drawing.Point(590, 72);
             this.AgetextBox.Name = "AgetextBox";
-            this.AgetextBox.Size = new System.Drawing.Size(167, 22);
+            this.AgetextBox.Size = new System.Drawing.Size(271, 22);
             this.AgetextBox.TabIndex = 16;
             // 
             // DatetextBox
             // 
-            this.DatetextBox.Location = new System.Drawing.Point(496, 146);
+            this.DatetextBox.Location = new System.Drawing.Point(590, 112);
             this.DatetextBox.Name = "DatetextBox";
-            this.DatetextBox.Size = new System.Drawing.Size(208, 22);
+            this.DatetextBox.Size = new System.Drawing.Size(271, 22);
             this.DatetextBox.TabIndex = 18;
             // 
             // TemperaturetextBox
             // 
-            this.TemperaturetextBox.Location = new System.Drawing.Point(496, 220);
+            this.TemperaturetextBox.Location = new System.Drawing.Point(590, 152);
             this.TemperaturetextBox.Name = "TemperaturetextBox";
-            this.TemperaturetextBox.Size = new System.Drawing.Size(208, 22);
+            this.TemperaturetextBox.Size = new System.Drawing.Size(271, 22);
             this.TemperaturetextBox.TabIndex = 20;
-            // 
-            // TimeInbutton
-            // 
-            this.TimeInbutton.Location = new System.Drawing.Point(717, 35);
-            this.TimeInbutton.Name = "TimeInbutton";
-            this.TimeInbutton.Size = new System.Drawing.Size(144, 70);
-            this.TimeInbutton.TabIndex = 21;
-            this.TimeInbutton.Text = "Time In";
-            this.TimeInbutton.UseVisualStyleBackColor = true;
             // 
             // TimeIntextBox
             // 
-            this.TimeIntextBox.Location = new System.Drawing.Point(717, 114);
+            this.TimeIntextBox.Location = new System.Drawing.Point(590, 189);
             this.TimeIntextBox.Name = "TimeIntextBox";
-            this.TimeIntextBox.Size = new System.Drawing.Size(144, 22);
+            this.TimeIntextBox.Size = new System.Drawing.Size(271, 22);
             this.TimeIntextBox.TabIndex = 22;
-            // 
-            // TimeOutbutton
-            // 
-            this.TimeOutbutton.Location = new System.Drawing.Point(717, 142);
-            this.TimeOutbutton.Name = "TimeOutbutton";
-            this.TimeOutbutton.Size = new System.Drawing.Size(144, 68);
-            this.TimeOutbutton.TabIndex = 23;
-            this.TimeOutbutton.Text = "Time Out";
-            this.TimeOutbutton.UseVisualStyleBackColor = true;
             // 
             // TimeOuttextBox
             // 
-            this.TimeOuttextBox.Location = new System.Drawing.Point(717, 220);
+            this.TimeOuttextBox.Location = new System.Drawing.Point(590, 223);
             this.TimeOuttextBox.Name = "TimeOuttextBox";
-            this.TimeOuttextBox.Size = new System.Drawing.Size(144, 22);
+            this.TimeOuttextBox.Size = new System.Drawing.Size(271, 22);
             this.TimeOuttextBox.TabIndex = 24;
             // 
             // Namelabel
@@ -224,7 +207,7 @@
             // Sexlabel
             // 
             this.Sexlabel.AutoSize = true;
-            this.Sexlabel.Location = new System.Drawing.Point(496, 38);
+            this.Sexlabel.Location = new System.Drawing.Point(545, 35);
             this.Sexlabel.Name = "Sexlabel";
             this.Sexlabel.Size = new System.Drawing.Size(33, 16);
             this.Sexlabel.TabIndex = 31;
@@ -233,35 +216,58 @@
             // Agelabel
             // 
             this.Agelabel.AutoSize = true;
-            this.Agelabel.Location = new System.Drawing.Point(496, 75);
+            this.Agelabel.Location = new System.Drawing.Point(545, 72);
             this.Agelabel.Name = "Agelabel";
             this.Agelabel.Size = new System.Drawing.Size(35, 16);
             this.Agelabel.TabIndex = 32;
             this.Agelabel.Text = "Age:";
             // 
-            // Temperaturebutton
+            // label1
             // 
-            this.Temperaturebutton.Location = new System.Drawing.Point(496, 179);
-            this.Temperaturebutton.Name = "Temperaturebutton";
-            this.Temperaturebutton.Size = new System.Drawing.Size(208, 31);
-            this.Temperaturebutton.TabIndex = 19;
-            this.Temperaturebutton.Text = "Temperature";
-            this.Temperaturebutton.UseVisualStyleBackColor = true;
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(539, 112);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(39, 16);
+            this.label1.TabIndex = 33;
+            this.label1.Text = "Date:";
             // 
-            // Datebutton
+            // label2
             // 
-            this.Datebutton.Location = new System.Drawing.Point(496, 110);
-            this.Datebutton.Name = "Datebutton";
-            this.Datebutton.Size = new System.Drawing.Size(208, 31);
-            this.Datebutton.TabIndex = 17;
-            this.Datebutton.Text = "Date";
-            this.Datebutton.UseVisualStyleBackColor = true;
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(496, 152);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(88, 16);
+            this.label2.TabIndex = 34;
+            this.label2.Text = "Temperature:";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(530, 189);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(54, 16);
+            this.label3.TabIndex = 35;
+            this.label3.Text = "Time In:";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(520, 223);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(64, 16);
+            this.label4.TabIndex = 36;
+            this.label4.Text = "Time Out:";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // ContactTracingForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(880, 622);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.Agelabel);
             this.Controls.Add(this.Sexlabel);
             this.Controls.Add(this.Emaillabel);
@@ -271,13 +277,9 @@
             this.Controls.Add(this.Birthdaylabel);
             this.Controls.Add(this.Namelabel);
             this.Controls.Add(this.TimeOuttextBox);
-            this.Controls.Add(this.TimeOutbutton);
             this.Controls.Add(this.TimeIntextBox);
-            this.Controls.Add(this.TimeInbutton);
             this.Controls.Add(this.TemperaturetextBox);
-            this.Controls.Add(this.Temperaturebutton);
             this.Controls.Add(this.DatetextBox);
-            this.Controls.Add(this.Datebutton);
             this.Controls.Add(this.AgetextBox);
             this.Controls.Add(this.SextextBox);
             this.Controls.Add(this.EmailtextBox);
@@ -307,9 +309,7 @@
         private System.Windows.Forms.TextBox AgetextBox;
         private System.Windows.Forms.TextBox DatetextBox;
         private System.Windows.Forms.TextBox TemperaturetextBox;
-        private System.Windows.Forms.Button TimeInbutton;
         private System.Windows.Forms.TextBox TimeIntextBox;
-        private System.Windows.Forms.Button TimeOutbutton;
         private System.Windows.Forms.TextBox TimeOuttextBox;
         private System.Windows.Forms.Label Namelabel;
         private System.Windows.Forms.Label Birthdaylabel;
@@ -319,8 +319,10 @@
         private System.Windows.Forms.Label Emaillabel;
         private System.Windows.Forms.Label Sexlabel;
         private System.Windows.Forms.Label Agelabel;
-        private System.Windows.Forms.Button Temperaturebutton;
-        private System.Windows.Forms.Button Datebutton;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
     }
 }
 

@@ -36,6 +36,14 @@ namespace Contact_Tracing_Form
             file.Close();
         }
 
+        private void label4_Click(object sender, EventArgs e)
+        {
 
+        }
+
+        private void SextextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
