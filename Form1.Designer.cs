@@ -54,6 +54,15 @@
             this.TimeInlabel = new System.Windows.Forms.Label();
             this.TimeOutlabel = new System.Windows.Forms.Label();
             this.Q1groupBox = new System.Windows.Forms.GroupBox();
+            this.FatiguegroupBox = new System.Windows.Forms.GroupBox();
+            this.FatigueNradioButton = new System.Windows.Forms.RadioButton();
+            this.FatigueYradioButton = new System.Windows.Forms.RadioButton();
+            this.SmellgroupBox = new System.Windows.Forms.GroupBox();
+            this.SmellNradioButton = new System.Windows.Forms.RadioButton();
+            this.SmellYradioButton = new System.Windows.Forms.RadioButton();
+            this.TastegroupBox = new System.Windows.Forms.GroupBox();
+            this.TasteNradioButton = new System.Windows.Forms.RadioButton();
+            this.TasteYradioButton = new System.Windows.Forms.RadioButton();
             this.SwallowgroupBox = new System.Windows.Forms.GroupBox();
             this.SwallowNradioButton = new System.Windows.Forms.RadioButton();
             this.SwallowYradioButton = new System.Windows.Forms.RadioButton();
@@ -76,24 +85,21 @@
             this.CoughNradioButton = new System.Windows.Forms.RadioButton();
             this.CoughYradioButton = new System.Windows.Forms.RadioButton();
             this.Q2groupBox = new System.Windows.Forms.GroupBox();
-            this.Q2YradioButton = new System.Windows.Forms.RadioButton();
             this.Q2NradioButton = new System.Windows.Forms.RadioButton();
+            this.Q2YradioButton = new System.Windows.Forms.RadioButton();
             this.Q4groupBox = new System.Windows.Forms.GroupBox();
             this.Q4NradioButton = new System.Windows.Forms.RadioButton();
             this.Q4YradioButton = new System.Windows.Forms.RadioButton();
-            this.TastegroupBox = new System.Windows.Forms.GroupBox();
-            this.TasteNradioButton = new System.Windows.Forms.RadioButton();
-            this.TasteYradioButton = new System.Windows.Forms.RadioButton();
-            this.SmellgroupBox = new System.Windows.Forms.GroupBox();
-            this.SmellNradioButton = new System.Windows.Forms.RadioButton();
-            this.SmellYradioButton = new System.Windows.Forms.RadioButton();
-            this.FatiguegroupBox = new System.Windows.Forms.GroupBox();
-            this.FatigueNradioButton = new System.Windows.Forms.RadioButton();
-            this.FatigueYradioButton = new System.Windows.Forms.RadioButton();
             this.Q3groupBox = new System.Windows.Forms.GroupBox();
             this.Q3NradioButton = new System.Windows.Forms.RadioButton();
             this.Q3YradioButton = new System.Windows.Forms.RadioButton();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.Q1groupBox.SuspendLayout();
+            this.FatiguegroupBox.SuspendLayout();
+            this.SmellgroupBox.SuspendLayout();
+            this.TastegroupBox.SuspendLayout();
             this.SwallowgroupBox.SuspendLayout();
             this.HeadAchegroupBox.SuspendLayout();
             this.ChillsgroupBox.SuspendLayout();
@@ -103,17 +109,15 @@
             this.CoughgroupBox.SuspendLayout();
             this.Q2groupBox.SuspendLayout();
             this.Q4groupBox.SuspendLayout();
-            this.TastegroupBox.SuspendLayout();
-            this.SmellgroupBox.SuspendLayout();
-            this.FatiguegroupBox.SuspendLayout();
             this.Q3groupBox.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // Savebutton
             // 
-            this.Savebutton.Location = new System.Drawing.Point(784, 598);
+            this.Savebutton.Location = new System.Drawing.Point(733, 609);
             this.Savebutton.Name = "Savebutton";
-            this.Savebutton.Size = new System.Drawing.Size(144, 55);
+            this.Savebutton.Size = new System.Drawing.Size(176, 44);
             this.Savebutton.TabIndex = 0;
             this.Savebutton.Text = "Save";
             this.Savebutton.UseVisualStyleBackColor = true;
@@ -342,6 +346,105 @@
             this.Q1groupBox.TabIndex = 37;
             this.Q1groupBox.TabStop = false;
             this.Q1groupBox.Text = "Did you have any of the following symptoms?";
+            // 
+            // FatiguegroupBox
+            // 
+            this.FatiguegroupBox.Controls.Add(this.FatigueNradioButton);
+            this.FatiguegroupBox.Controls.Add(this.FatigueYradioButton);
+            this.FatiguegroupBox.Location = new System.Drawing.Point(267, 305);
+            this.FatiguegroupBox.Name = "FatiguegroupBox";
+            this.FatiguegroupBox.Size = new System.Drawing.Size(226, 45);
+            this.FatiguegroupBox.TabIndex = 9;
+            this.FatiguegroupBox.TabStop = false;
+            this.FatiguegroupBox.Text = "Fatigue";
+            // 
+            // FatigueNradioButton
+            // 
+            this.FatigueNradioButton.AutoSize = true;
+            this.FatigueNradioButton.Location = new System.Drawing.Point(154, 19);
+            this.FatigueNradioButton.Name = "FatigueNradioButton";
+            this.FatigueNradioButton.Size = new System.Drawing.Size(48, 20);
+            this.FatigueNradioButton.TabIndex = 1;
+            this.FatigueNradioButton.TabStop = true;
+            this.FatigueNradioButton.Text = "No";
+            this.FatigueNradioButton.UseVisualStyleBackColor = true;
+            // 
+            // FatigueYradioButton
+            // 
+            this.FatigueYradioButton.AutoSize = true;
+            this.FatigueYradioButton.Location = new System.Drawing.Point(74, 19);
+            this.FatigueYradioButton.Name = "FatigueYradioButton";
+            this.FatigueYradioButton.Size = new System.Drawing.Size(55, 20);
+            this.FatigueYradioButton.TabIndex = 0;
+            this.FatigueYradioButton.TabStop = true;
+            this.FatigueYradioButton.Text = "Yes";
+            this.FatigueYradioButton.UseVisualStyleBackColor = true;
+            // 
+            // SmellgroupBox
+            // 
+            this.SmellgroupBox.Controls.Add(this.SmellNradioButton);
+            this.SmellgroupBox.Controls.Add(this.SmellYradioButton);
+            this.SmellgroupBox.Location = new System.Drawing.Point(17, 305);
+            this.SmellgroupBox.Name = "SmellgroupBox";
+            this.SmellgroupBox.Size = new System.Drawing.Size(226, 45);
+            this.SmellgroupBox.TabIndex = 8;
+            this.SmellgroupBox.TabStop = false;
+            this.SmellgroupBox.Text = "Loss of Smell";
+            // 
+            // SmellNradioButton
+            // 
+            this.SmellNradioButton.AutoSize = true;
+            this.SmellNradioButton.Location = new System.Drawing.Point(154, 19);
+            this.SmellNradioButton.Name = "SmellNradioButton";
+            this.SmellNradioButton.Size = new System.Drawing.Size(48, 20);
+            this.SmellNradioButton.TabIndex = 1;
+            this.SmellNradioButton.TabStop = true;
+            this.SmellNradioButton.Text = "No";
+            this.SmellNradioButton.UseVisualStyleBackColor = true;
+            // 
+            // SmellYradioButton
+            // 
+            this.SmellYradioButton.AutoSize = true;
+            this.SmellYradioButton.Location = new System.Drawing.Point(74, 19);
+            this.SmellYradioButton.Name = "SmellYradioButton";
+            this.SmellYradioButton.Size = new System.Drawing.Size(55, 20);
+            this.SmellYradioButton.TabIndex = 0;
+            this.SmellYradioButton.TabStop = true;
+            this.SmellYradioButton.Text = "Yes";
+            this.SmellYradioButton.UseVisualStyleBackColor = true;
+            // 
+            // TastegroupBox
+            // 
+            this.TastegroupBox.Controls.Add(this.TasteNradioButton);
+            this.TastegroupBox.Controls.Add(this.TasteYradioButton);
+            this.TastegroupBox.Location = new System.Drawing.Point(267, 236);
+            this.TastegroupBox.Name = "TastegroupBox";
+            this.TastegroupBox.Size = new System.Drawing.Size(226, 45);
+            this.TastegroupBox.TabIndex = 7;
+            this.TastegroupBox.TabStop = false;
+            this.TastegroupBox.Text = "Loss of Taste";
+            // 
+            // TasteNradioButton
+            // 
+            this.TasteNradioButton.AutoSize = true;
+            this.TasteNradioButton.Location = new System.Drawing.Point(154, 19);
+            this.TasteNradioButton.Name = "TasteNradioButton";
+            this.TasteNradioButton.Size = new System.Drawing.Size(48, 20);
+            this.TasteNradioButton.TabIndex = 1;
+            this.TasteNradioButton.TabStop = true;
+            this.TasteNradioButton.Text = "No";
+            this.TasteNradioButton.UseVisualStyleBackColor = true;
+            // 
+            // TasteYradioButton
+            // 
+            this.TasteYradioButton.AutoSize = true;
+            this.TasteYradioButton.Location = new System.Drawing.Point(74, 19);
+            this.TasteYradioButton.Name = "TasteYradioButton";
+            this.TasteYradioButton.Size = new System.Drawing.Size(55, 20);
+            this.TasteYradioButton.TabIndex = 0;
+            this.TasteYradioButton.TabStop = true;
+            this.TasteYradioButton.Text = "Yes";
+            this.TasteYradioButton.UseVisualStyleBackColor = true;
             // 
             // SwallowgroupBox
             // 
@@ -579,29 +682,18 @@
             this.Q2groupBox.Controls.Add(this.Q2NradioButton);
             this.Q2groupBox.Controls.Add(this.Q2YradioButton);
             this.Q2groupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Q2groupBox.Location = new System.Drawing.Point(563, 323);
+            this.Q2groupBox.Location = new System.Drawing.Point(563, 349);
             this.Q2groupBox.Name = "Q2groupBox";
             this.Q2groupBox.Size = new System.Drawing.Size(308, 87);
             this.Q2groupBox.TabIndex = 38;
             this.Q2groupBox.TabStop = false;
             this.Q2groupBox.Text = "Have you had close contact with anyone with a confirmed or probable case of COVID" +
-    "-19?";
-            // 
-            // Q2YradioButton
-            // 
-            this.Q2YradioButton.AutoSize = true;
-            this.Q2YradioButton.Location = new System.Drawing.Point(107, 43);
-            this.Q2YradioButton.Name = "Q2YradioButton";
-            this.Q2YradioButton.Size = new System.Drawing.Size(55, 20);
-            this.Q2YradioButton.TabIndex = 0;
-            this.Q2YradioButton.TabStop = true;
-            this.Q2YradioButton.Text = "Yes";
-            this.Q2YradioButton.UseVisualStyleBackColor = true;
+    "-19 within 14 days?";
             // 
             // Q2NradioButton
             // 
             this.Q2NradioButton.AutoSize = true;
-            this.Q2NradioButton.Location = new System.Drawing.Point(190, 43);
+            this.Q2NradioButton.Location = new System.Drawing.Point(190, 61);
             this.Q2NradioButton.Name = "Q2NradioButton";
             this.Q2NradioButton.Size = new System.Drawing.Size(48, 20);
             this.Q2NradioButton.TabIndex = 39;
@@ -609,17 +701,28 @@
             this.Q2NradioButton.Text = "No";
             this.Q2NradioButton.UseVisualStyleBackColor = true;
             // 
+            // Q2YradioButton
+            // 
+            this.Q2YradioButton.AutoSize = true;
+            this.Q2YradioButton.Location = new System.Drawing.Point(86, 61);
+            this.Q2YradioButton.Name = "Q2YradioButton";
+            this.Q2YradioButton.Size = new System.Drawing.Size(55, 20);
+            this.Q2YradioButton.TabIndex = 0;
+            this.Q2YradioButton.TabStop = true;
+            this.Q2YradioButton.Text = "Yes";
+            this.Q2YradioButton.UseVisualStyleBackColor = true;
+            // 
             // Q4groupBox
             // 
             this.Q4groupBox.Controls.Add(this.Q4NradioButton);
             this.Q4groupBox.Controls.Add(this.Q4YradioButton);
             this.Q4groupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Q4groupBox.Location = new System.Drawing.Point(563, 512);
+            this.Q4groupBox.Location = new System.Drawing.Point(563, 522);
             this.Q4groupBox.Name = "Q4groupBox";
             this.Q4groupBox.Size = new System.Drawing.Size(308, 63);
             this.Q4groupBox.TabIndex = 39;
             this.Q4groupBox.TabStop = false;
-            this.Q4groupBox.Text = "If yes, did you quarantine for 14days?";
+            this.Q4groupBox.Text = "If yes, did you quarantine for 14 days?";
             // 
             // Q4NradioButton
             // 
@@ -635,7 +738,7 @@
             // Q4YradioButton
             // 
             this.Q4YradioButton.AutoSize = true;
-            this.Q4YradioButton.Location = new System.Drawing.Point(107, 37);
+            this.Q4YradioButton.Location = new System.Drawing.Point(86, 37);
             this.Q4YradioButton.Name = "Q4YradioButton";
             this.Q4YradioButton.Size = new System.Drawing.Size(55, 20);
             this.Q4YradioButton.TabIndex = 0;
@@ -643,111 +746,12 @@
             this.Q4YradioButton.Text = "Yes";
             this.Q4YradioButton.UseVisualStyleBackColor = true;
             // 
-            // TastegroupBox
-            // 
-            this.TastegroupBox.Controls.Add(this.TasteNradioButton);
-            this.TastegroupBox.Controls.Add(this.TasteYradioButton);
-            this.TastegroupBox.Location = new System.Drawing.Point(267, 236);
-            this.TastegroupBox.Name = "TastegroupBox";
-            this.TastegroupBox.Size = new System.Drawing.Size(226, 45);
-            this.TastegroupBox.TabIndex = 7;
-            this.TastegroupBox.TabStop = false;
-            this.TastegroupBox.Text = "Loss of Taste";
-            // 
-            // TasteNradioButton
-            // 
-            this.TasteNradioButton.AutoSize = true;
-            this.TasteNradioButton.Location = new System.Drawing.Point(154, 19);
-            this.TasteNradioButton.Name = "TasteNradioButton";
-            this.TasteNradioButton.Size = new System.Drawing.Size(48, 20);
-            this.TasteNradioButton.TabIndex = 1;
-            this.TasteNradioButton.TabStop = true;
-            this.TasteNradioButton.Text = "No";
-            this.TasteNradioButton.UseVisualStyleBackColor = true;
-            // 
-            // TasteYradioButton
-            // 
-            this.TasteYradioButton.AutoSize = true;
-            this.TasteYradioButton.Location = new System.Drawing.Point(74, 19);
-            this.TasteYradioButton.Name = "TasteYradioButton";
-            this.TasteYradioButton.Size = new System.Drawing.Size(55, 20);
-            this.TasteYradioButton.TabIndex = 0;
-            this.TasteYradioButton.TabStop = true;
-            this.TasteYradioButton.Text = "Yes";
-            this.TasteYradioButton.UseVisualStyleBackColor = true;
-            // 
-            // SmellgroupBox
-            // 
-            this.SmellgroupBox.Controls.Add(this.SmellNradioButton);
-            this.SmellgroupBox.Controls.Add(this.SmellYradioButton);
-            this.SmellgroupBox.Location = new System.Drawing.Point(17, 305);
-            this.SmellgroupBox.Name = "SmellgroupBox";
-            this.SmellgroupBox.Size = new System.Drawing.Size(226, 45);
-            this.SmellgroupBox.TabIndex = 8;
-            this.SmellgroupBox.TabStop = false;
-            this.SmellgroupBox.Text = "Loss of Smell";
-            // 
-            // SmellNradioButton
-            // 
-            this.SmellNradioButton.AutoSize = true;
-            this.SmellNradioButton.Location = new System.Drawing.Point(154, 19);
-            this.SmellNradioButton.Name = "SmellNradioButton";
-            this.SmellNradioButton.Size = new System.Drawing.Size(48, 20);
-            this.SmellNradioButton.TabIndex = 1;
-            this.SmellNradioButton.TabStop = true;
-            this.SmellNradioButton.Text = "No";
-            this.SmellNradioButton.UseVisualStyleBackColor = true;
-            // 
-            // SmellYradioButton
-            // 
-            this.SmellYradioButton.AutoSize = true;
-            this.SmellYradioButton.Location = new System.Drawing.Point(74, 19);
-            this.SmellYradioButton.Name = "SmellYradioButton";
-            this.SmellYradioButton.Size = new System.Drawing.Size(55, 20);
-            this.SmellYradioButton.TabIndex = 0;
-            this.SmellYradioButton.TabStop = true;
-            this.SmellYradioButton.Text = "Yes";
-            this.SmellYradioButton.UseVisualStyleBackColor = true;
-            // 
-            // FatiguegroupBox
-            // 
-            this.FatiguegroupBox.Controls.Add(this.FatigueNradioButton);
-            this.FatiguegroupBox.Controls.Add(this.FatigueYradioButton);
-            this.FatiguegroupBox.Location = new System.Drawing.Point(267, 305);
-            this.FatiguegroupBox.Name = "FatiguegroupBox";
-            this.FatiguegroupBox.Size = new System.Drawing.Size(226, 45);
-            this.FatiguegroupBox.TabIndex = 9;
-            this.FatiguegroupBox.TabStop = false;
-            this.FatiguegroupBox.Text = "Fatigue";
-            // 
-            // FatigueNradioButton
-            // 
-            this.FatigueNradioButton.AutoSize = true;
-            this.FatigueNradioButton.Location = new System.Drawing.Point(154, 19);
-            this.FatigueNradioButton.Name = "FatigueNradioButton";
-            this.FatigueNradioButton.Size = new System.Drawing.Size(48, 20);
-            this.FatigueNradioButton.TabIndex = 1;
-            this.FatigueNradioButton.TabStop = true;
-            this.FatigueNradioButton.Text = "No";
-            this.FatigueNradioButton.UseVisualStyleBackColor = true;
-            // 
-            // FatigueYradioButton
-            // 
-            this.FatigueYradioButton.AutoSize = true;
-            this.FatigueYradioButton.Location = new System.Drawing.Point(74, 19);
-            this.FatigueYradioButton.Name = "FatigueYradioButton";
-            this.FatigueYradioButton.Size = new System.Drawing.Size(55, 20);
-            this.FatigueYradioButton.TabIndex = 0;
-            this.FatigueYradioButton.TabStop = true;
-            this.FatigueYradioButton.Text = "Yes";
-            this.FatigueYradioButton.UseVisualStyleBackColor = true;
-            // 
             // Q3groupBox
             // 
             this.Q3groupBox.Controls.Add(this.Q3NradioButton);
             this.Q3groupBox.Controls.Add(this.Q3YradioButton);
             this.Q3groupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Q3groupBox.Location = new System.Drawing.Point(563, 425);
+            this.Q3groupBox.Location = new System.Drawing.Point(563, 443);
             this.Q3groupBox.Name = "Q3groupBox";
             this.Q3groupBox.Size = new System.Drawing.Size(308, 63);
             this.Q3groupBox.TabIndex = 40;
@@ -768,7 +772,7 @@
             // Q3YradioButton
             // 
             this.Q3YradioButton.AutoSize = true;
-            this.Q3YradioButton.Location = new System.Drawing.Point(107, 37);
+            this.Q3YradioButton.Location = new System.Drawing.Point(86, 37);
             this.Q3YradioButton.Name = "Q3YradioButton";
             this.Q3YradioButton.Size = new System.Drawing.Size(55, 20);
             this.Q3YradioButton.TabIndex = 0;
@@ -776,11 +780,46 @@
             this.Q3YradioButton.Text = "Yes";
             this.Q3YradioButton.UseVisualStyleBackColor = true;
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.radioButton1);
+            this.groupBox1.Controls.Add(this.radioButton2);
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Location = new System.Drawing.Point(563, 276);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(308, 58);
+            this.groupBox1.TabIndex = 41;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Do you have any travel history for the past 14 days?";
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(190, 31);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(48, 20);
+            this.radioButton1.TabIndex = 39;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "No";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Location = new System.Drawing.Point(86, 31);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(55, 20);
+            this.radioButton2.TabIndex = 0;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "Yes";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            // 
             // ContactTracingForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(940, 665);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.Q3groupBox);
             this.Controls.Add(this.Q4groupBox);
             this.Controls.Add(this.Q2groupBox);
@@ -813,6 +852,12 @@
             this.Name = "ContactTracingForm";
             this.Text = "Contact Tracing Form";
             this.Q1groupBox.ResumeLayout(false);
+            this.FatiguegroupBox.ResumeLayout(false);
+            this.FatiguegroupBox.PerformLayout();
+            this.SmellgroupBox.ResumeLayout(false);
+            this.SmellgroupBox.PerformLayout();
+            this.TastegroupBox.ResumeLayout(false);
+            this.TastegroupBox.PerformLayout();
             this.SwallowgroupBox.ResumeLayout(false);
             this.SwallowgroupBox.PerformLayout();
             this.HeadAchegroupBox.ResumeLayout(false);
@@ -831,14 +876,10 @@
             this.Q2groupBox.PerformLayout();
             this.Q4groupBox.ResumeLayout(false);
             this.Q4groupBox.PerformLayout();
-            this.TastegroupBox.ResumeLayout(false);
-            this.TastegroupBox.PerformLayout();
-            this.SmellgroupBox.ResumeLayout(false);
-            this.SmellgroupBox.PerformLayout();
-            this.FatiguegroupBox.ResumeLayout(false);
-            this.FatiguegroupBox.PerformLayout();
             this.Q3groupBox.ResumeLayout(false);
             this.Q3groupBox.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -911,6 +952,9 @@
         private System.Windows.Forms.GroupBox Q3groupBox;
         private System.Windows.Forms.RadioButton Q3NradioButton;
         private System.Windows.Forms.RadioButton Q3YradioButton;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton radioButton2;
     }
 }
 
