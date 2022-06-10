@@ -74,12 +74,12 @@
             this.ChillsYradioButton = new System.Windows.Forms.RadioButton();
             this.FevergroupBox = new System.Windows.Forms.GroupBox();
             this.FeverNradioButton = new System.Windows.Forms.RadioButton();
-            this.FaverYradioButton = new System.Windows.Forms.RadioButton();
+            this.FeverYradioButton = new System.Windows.Forms.RadioButton();
             this.ThroatgroupBox = new System.Windows.Forms.GroupBox();
             this.ThroatNradioButton = new System.Windows.Forms.RadioButton();
             this.ThroatYradioButton = new System.Windows.Forms.RadioButton();
             this.BreathgroupBox = new System.Windows.Forms.GroupBox();
-            this.BreathradioButton = new System.Windows.Forms.RadioButton();
+            this.BreathNradioButton = new System.Windows.Forms.RadioButton();
             this.BreathYradioButton = new System.Windows.Forms.RadioButton();
             this.CoughgroupBox = new System.Windows.Forms.GroupBox();
             this.CoughNradioButton = new System.Windows.Forms.RadioButton();
@@ -93,9 +93,9 @@
             this.Q3groupBox = new System.Windows.Forms.GroupBox();
             this.Q3NradioButton = new System.Windows.Forms.RadioButton();
             this.Q3YradioButton = new System.Windows.Forms.RadioButton();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.Q5groupBox = new System.Windows.Forms.GroupBox();
+            this.Q5NradioButton = new System.Windows.Forms.RadioButton();
+            this.Q5YradioButton = new System.Windows.Forms.RadioButton();
             this.Q1groupBox.SuspendLayout();
             this.FatiguegroupBox.SuspendLayout();
             this.SmellgroupBox.SuspendLayout();
@@ -110,7 +110,7 @@
             this.Q2groupBox.SuspendLayout();
             this.Q4groupBox.SuspendLayout();
             this.Q3groupBox.SuspendLayout();
-            this.groupBox1.SuspendLayout();
+            this.Q5groupBox.SuspendLayout();
             this.SuspendLayout();
             // 
             // Savebutton
@@ -548,7 +548,7 @@
             // FevergroupBox
             // 
             this.FevergroupBox.Controls.Add(this.FeverNradioButton);
-            this.FevergroupBox.Controls.Add(this.FaverYradioButton);
+            this.FevergroupBox.Controls.Add(this.FeverYradioButton);
             this.FevergroupBox.Location = new System.Drawing.Point(267, 95);
             this.FevergroupBox.Name = "FevergroupBox";
             this.FevergroupBox.Size = new System.Drawing.Size(226, 45);
@@ -567,16 +567,16 @@
             this.FeverNradioButton.Text = "No";
             this.FeverNradioButton.UseVisualStyleBackColor = true;
             // 
-            // FaverYradioButton
+            // FeverYradioButton
             // 
-            this.FaverYradioButton.AutoSize = true;
-            this.FaverYradioButton.Location = new System.Drawing.Point(74, 19);
-            this.FaverYradioButton.Name = "FaverYradioButton";
-            this.FaverYradioButton.Size = new System.Drawing.Size(55, 20);
-            this.FaverYradioButton.TabIndex = 0;
-            this.FaverYradioButton.TabStop = true;
-            this.FaverYradioButton.Text = "Yes";
-            this.FaverYradioButton.UseVisualStyleBackColor = true;
+            this.FeverYradioButton.AutoSize = true;
+            this.FeverYradioButton.Location = new System.Drawing.Point(74, 19);
+            this.FeverYradioButton.Name = "FeverYradioButton";
+            this.FeverYradioButton.Size = new System.Drawing.Size(55, 20);
+            this.FeverYradioButton.TabIndex = 0;
+            this.FeverYradioButton.TabStop = true;
+            this.FeverYradioButton.Text = "Yes";
+            this.FeverYradioButton.UseVisualStyleBackColor = true;
             // 
             // ThroatgroupBox
             // 
@@ -613,7 +613,7 @@
             // 
             // BreathgroupBox
             // 
-            this.BreathgroupBox.Controls.Add(this.BreathradioButton);
+            this.BreathgroupBox.Controls.Add(this.BreathNradioButton);
             this.BreathgroupBox.Controls.Add(this.BreathYradioButton);
             this.BreathgroupBox.Location = new System.Drawing.Point(267, 31);
             this.BreathgroupBox.Name = "BreathgroupBox";
@@ -622,16 +622,16 @@
             this.BreathgroupBox.TabStop = false;
             this.BreathgroupBox.Text = "Shortness of Breath";
             // 
-            // BreathradioButton
+            // BreathNradioButton
             // 
-            this.BreathradioButton.AutoSize = true;
-            this.BreathradioButton.Location = new System.Drawing.Point(154, 19);
-            this.BreathradioButton.Name = "BreathradioButton";
-            this.BreathradioButton.Size = new System.Drawing.Size(48, 20);
-            this.BreathradioButton.TabIndex = 1;
-            this.BreathradioButton.TabStop = true;
-            this.BreathradioButton.Text = "No";
-            this.BreathradioButton.UseVisualStyleBackColor = true;
+            this.BreathNradioButton.AutoSize = true;
+            this.BreathNradioButton.Location = new System.Drawing.Point(154, 19);
+            this.BreathNradioButton.Name = "BreathNradioButton";
+            this.BreathNradioButton.Size = new System.Drawing.Size(48, 20);
+            this.BreathNradioButton.TabIndex = 1;
+            this.BreathNradioButton.TabStop = true;
+            this.BreathNradioButton.Text = "No";
+            this.BreathNradioButton.UseVisualStyleBackColor = true;
             // 
             // BreathYradioButton
             // 
@@ -676,6 +676,7 @@
             this.CoughYradioButton.TabStop = true;
             this.CoughYradioButton.Text = "Yes";
             this.CoughYradioButton.UseVisualStyleBackColor = true;
+            this.CoughYradioButton.CheckedChanged += new System.EventHandler(this.CoughYradioButton_CheckedChanged);
             // 
             // Q2groupBox
             // 
@@ -780,46 +781,46 @@
             this.Q3YradioButton.Text = "Yes";
             this.Q3YradioButton.UseVisualStyleBackColor = true;
             // 
-            // groupBox1
+            // Q5groupBox
             // 
-            this.groupBox1.Controls.Add(this.radioButton1);
-            this.groupBox1.Controls.Add(this.radioButton2);
-            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(563, 276);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(308, 58);
-            this.groupBox1.TabIndex = 41;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Do you have any travel history for the past 14 days?";
+            this.Q5groupBox.Controls.Add(this.Q5NradioButton);
+            this.Q5groupBox.Controls.Add(this.Q5YradioButton);
+            this.Q5groupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Q5groupBox.Location = new System.Drawing.Point(563, 276);
+            this.Q5groupBox.Name = "Q5groupBox";
+            this.Q5groupBox.Size = new System.Drawing.Size(308, 58);
+            this.Q5groupBox.TabIndex = 41;
+            this.Q5groupBox.TabStop = false;
+            this.Q5groupBox.Text = "Do you have any travel history for the past 14 days?";
             // 
-            // radioButton1
+            // Q5NradioButton
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(190, 31);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(48, 20);
-            this.radioButton1.TabIndex = 39;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "No";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.Q5NradioButton.AutoSize = true;
+            this.Q5NradioButton.Location = new System.Drawing.Point(190, 31);
+            this.Q5NradioButton.Name = "Q5NradioButton";
+            this.Q5NradioButton.Size = new System.Drawing.Size(48, 20);
+            this.Q5NradioButton.TabIndex = 39;
+            this.Q5NradioButton.TabStop = true;
+            this.Q5NradioButton.Text = "No";
+            this.Q5NradioButton.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // Q5YradioButton
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(86, 31);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(55, 20);
-            this.radioButton2.TabIndex = 0;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Yes";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.Q5YradioButton.AutoSize = true;
+            this.Q5YradioButton.Location = new System.Drawing.Point(86, 31);
+            this.Q5YradioButton.Name = "Q5YradioButton";
+            this.Q5YradioButton.Size = new System.Drawing.Size(55, 20);
+            this.Q5YradioButton.TabIndex = 0;
+            this.Q5YradioButton.TabStop = true;
+            this.Q5YradioButton.Text = "Yes";
+            this.Q5YradioButton.UseVisualStyleBackColor = true;
             // 
             // ContactTracingForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(940, 665);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.Q5groupBox);
             this.Controls.Add(this.Q3groupBox);
             this.Controls.Add(this.Q4groupBox);
             this.Controls.Add(this.Q2groupBox);
@@ -878,8 +879,8 @@
             this.Q4groupBox.PerformLayout();
             this.Q3groupBox.ResumeLayout(false);
             this.Q3groupBox.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.Q5groupBox.ResumeLayout(false);
+            this.Q5groupBox.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -921,12 +922,12 @@
         private System.Windows.Forms.RadioButton ChillsYradioButton;
         private System.Windows.Forms.GroupBox FevergroupBox;
         private System.Windows.Forms.RadioButton FeverNradioButton;
-        private System.Windows.Forms.RadioButton FaverYradioButton;
+        private System.Windows.Forms.RadioButton FeverYradioButton;
         private System.Windows.Forms.GroupBox ThroatgroupBox;
         private System.Windows.Forms.RadioButton ThroatNradioButton;
         private System.Windows.Forms.RadioButton ThroatYradioButton;
         private System.Windows.Forms.GroupBox BreathgroupBox;
-        private System.Windows.Forms.RadioButton BreathradioButton;
+        private System.Windows.Forms.RadioButton BreathNradioButton;
         private System.Windows.Forms.RadioButton BreathYradioButton;
         private System.Windows.Forms.GroupBox CoughgroupBox;
         private System.Windows.Forms.RadioButton CoughNradioButton;
@@ -952,9 +953,9 @@
         private System.Windows.Forms.GroupBox Q3groupBox;
         private System.Windows.Forms.RadioButton Q3NradioButton;
         private System.Windows.Forms.RadioButton Q3YradioButton;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.GroupBox Q5groupBox;
+        private System.Windows.Forms.RadioButton Q5NradioButton;
+        private System.Windows.Forms.RadioButton Q5YradioButton;
     }
 }
 
