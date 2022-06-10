@@ -11,9 +11,9 @@ using System.IO;
 
 namespace Contact_Tracing_Form
 {
-    public partial class Form1 : Form
+    public partial class ContactTracingForm : Form
     {
-        public Form1()
+        public ContactTracingForm()
         {
             InitializeComponent();
         }
@@ -35,5 +35,7 @@ namespace Contact_Tracing_Form
             file.WriteLine("Time Out: " + TimeOuttextBox.Text);
             file.Close();
         }
+
+
     }
 }
