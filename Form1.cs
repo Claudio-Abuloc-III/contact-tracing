@@ -179,11 +179,6 @@ namespace Contact_Tracing_Form
             }
             file.WriteLine("Are you positive for COVID -19?: " + decision13);
 
-            Q4groupBox.Enabled = false;
-            if (decision13 == Q3YradioButton.Text)
-            {
-                Q4groupBox.Enabled = true;
-            }
             string decision14 = "";
             if (Q4YradioButton.Checked)
             {
@@ -197,9 +192,7 @@ namespace Contact_Tracing_Form
             file.Close();
         }
 
-        private void CoughYradioButton_CheckedChanged(object sender, EventArgs e)
-        {
 
-        }
+    }
     }
 }

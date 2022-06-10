@@ -96,6 +96,8 @@
             this.Q5groupBox = new System.Windows.Forms.GroupBox();
             this.Q5NradioButton = new System.Windows.Forms.RadioButton();
             this.Q5YradioButton = new System.Windows.Forms.RadioButton();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.Q1groupBox.SuspendLayout();
             this.FatiguegroupBox.SuspendLayout();
             this.SmellgroupBox.SuspendLayout();
@@ -115,94 +117,98 @@
             // 
             // Savebutton
             // 
-            this.Savebutton.Location = new System.Drawing.Point(733, 609);
+            this.Savebutton.BackColor = System.Drawing.Color.DarkCyan;
+            this.Savebutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Savebutton.ForeColor = System.Drawing.Color.Snow;
+            this.Savebutton.Location = new System.Drawing.Point(753, 617);
             this.Savebutton.Name = "Savebutton";
             this.Savebutton.Size = new System.Drawing.Size(176, 44);
             this.Savebutton.TabIndex = 0;
             this.Savebutton.Text = "Save";
-            this.Savebutton.UseVisualStyleBackColor = true;
+            this.Savebutton.UseVisualStyleBackColor = false;
             this.Savebutton.Click += new System.EventHandler(this.Savebutton_Click);
             // 
             // NametextBox
             // 
-            this.NametextBox.Location = new System.Drawing.Point(106, 35);
+            this.NametextBox.BackColor = System.Drawing.Color.Snow;
+            this.NametextBox.Location = new System.Drawing.Point(111, 106);
             this.NametextBox.Name = "NametextBox";
             this.NametextBox.Size = new System.Drawing.Size(350, 22);
             this.NametextBox.TabIndex = 1;
             // 
             // BirthdaytextBox
             // 
-            this.BirthdaytextBox.Location = new System.Drawing.Point(106, 72);
+            this.BirthdaytextBox.Location = new System.Drawing.Point(111, 134);
             this.BirthdaytextBox.Name = "BirthdaytextBox";
             this.BirthdaytextBox.Size = new System.Drawing.Size(350, 22);
             this.BirthdaytextBox.TabIndex = 4;
             // 
             // AddresstextBox
             // 
-            this.AddresstextBox.Location = new System.Drawing.Point(106, 109);
+            this.AddresstextBox.Location = new System.Drawing.Point(111, 162);
             this.AddresstextBox.Name = "AddresstextBox";
             this.AddresstextBox.Size = new System.Drawing.Size(350, 22);
             this.AddresstextBox.TabIndex = 6;
             // 
             // ContactNotextBox
             // 
-            this.ContactNotextBox.Location = new System.Drawing.Point(106, 146);
+            this.ContactNotextBox.Location = new System.Drawing.Point(111, 190);
             this.ContactNotextBox.Name = "ContactNotextBox";
             this.ContactNotextBox.Size = new System.Drawing.Size(350, 22);
             this.ContactNotextBox.TabIndex = 8;
             // 
             // OccupationtextBox
             // 
-            this.OccupationtextBox.Location = new System.Drawing.Point(106, 183);
+            this.OccupationtextBox.Location = new System.Drawing.Point(111, 218);
             this.OccupationtextBox.Name = "OccupationtextBox";
             this.OccupationtextBox.Size = new System.Drawing.Size(350, 22);
             this.OccupationtextBox.TabIndex = 10;
             // 
             // EmailtextBox
             // 
-            this.EmailtextBox.Location = new System.Drawing.Point(106, 220);
+            this.EmailtextBox.Location = new System.Drawing.Point(111, 246);
             this.EmailtextBox.Name = "EmailtextBox";
             this.EmailtextBox.Size = new System.Drawing.Size(350, 22);
             this.EmailtextBox.TabIndex = 12;
             // 
             // SextextBox
             // 
-            this.SextextBox.Location = new System.Drawing.Point(590, 32);
+            this.SextextBox.Location = new System.Drawing.Point(590, 100);
             this.SextextBox.Name = "SextextBox";
             this.SextextBox.Size = new System.Drawing.Size(271, 22);
             this.SextextBox.TabIndex = 14;
             // 
             // AgetextBox
             // 
-            this.AgetextBox.Location = new System.Drawing.Point(590, 72);
+            this.AgetextBox.Location = new System.Drawing.Point(590, 131);
             this.AgetextBox.Name = "AgetextBox";
             this.AgetextBox.Size = new System.Drawing.Size(271, 22);
             this.AgetextBox.TabIndex = 16;
             // 
             // DatetextBox
             // 
-            this.DatetextBox.Location = new System.Drawing.Point(590, 112);
+            this.DatetextBox.Location = new System.Drawing.Point(590, 159);
             this.DatetextBox.Name = "DatetextBox";
             this.DatetextBox.Size = new System.Drawing.Size(271, 22);
             this.DatetextBox.TabIndex = 18;
             // 
             // TemperaturetextBox
             // 
-            this.TemperaturetextBox.Location = new System.Drawing.Point(590, 152);
+            this.TemperaturetextBox.Location = new System.Drawing.Point(590, 187);
             this.TemperaturetextBox.Name = "TemperaturetextBox";
             this.TemperaturetextBox.Size = new System.Drawing.Size(271, 22);
             this.TemperaturetextBox.TabIndex = 20;
             // 
             // TimeIntextBox
             // 
-            this.TimeIntextBox.Location = new System.Drawing.Point(590, 189);
+            this.TimeIntextBox.Location = new System.Drawing.Point(590, 215);
             this.TimeIntextBox.Name = "TimeIntextBox";
             this.TimeIntextBox.Size = new System.Drawing.Size(271, 22);
             this.TimeIntextBox.TabIndex = 22;
             // 
             // TimeOuttextBox
             // 
-            this.TimeOuttextBox.Location = new System.Drawing.Point(590, 223);
+            this.TimeOuttextBox.Location = new System.Drawing.Point(590, 246);
             this.TimeOuttextBox.Name = "TimeOuttextBox";
             this.TimeOuttextBox.Size = new System.Drawing.Size(271, 22);
             this.TimeOuttextBox.TabIndex = 24;
@@ -211,7 +217,8 @@
             // 
             this.Namelabel.AutoSize = true;
             this.Namelabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Namelabel.Location = new System.Drawing.Point(52, 35);
+            this.Namelabel.ForeColor = System.Drawing.Color.Snow;
+            this.Namelabel.Location = new System.Drawing.Point(51, 106);
             this.Namelabel.Name = "Namelabel";
             this.Namelabel.Size = new System.Drawing.Size(52, 16);
             this.Namelabel.TabIndex = 25;
@@ -221,7 +228,8 @@
             // 
             this.Birthdaylabel.AutoSize = true;
             this.Birthdaylabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Birthdaylabel.Location = new System.Drawing.Point(40, 72);
+            this.Birthdaylabel.ForeColor = System.Drawing.Color.Snow;
+            this.Birthdaylabel.Location = new System.Drawing.Point(34, 137);
             this.Birthdaylabel.Name = "Birthdaylabel";
             this.Birthdaylabel.Size = new System.Drawing.Size(68, 16);
             this.Birthdaylabel.TabIndex = 26;
@@ -231,7 +239,8 @@
             // 
             this.Addresslabel.AutoSize = true;
             this.Addresslabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Addresslabel.Location = new System.Drawing.Point(38, 109);
+            this.Addresslabel.ForeColor = System.Drawing.Color.Snow;
+            this.Addresslabel.Location = new System.Drawing.Point(34, 165);
             this.Addresslabel.Name = "Addresslabel";
             this.Addresslabel.Size = new System.Drawing.Size(69, 16);
             this.Addresslabel.TabIndex = 27;
@@ -241,7 +250,8 @@
             // 
             this.Contactlabel.AutoSize = true;
             this.Contactlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Contactlabel.Location = new System.Drawing.Point(17, 146);
+            this.Contactlabel.ForeColor = System.Drawing.Color.Snow;
+            this.Contactlabel.Location = new System.Drawing.Point(17, 193);
             this.Contactlabel.Name = "Contactlabel";
             this.Contactlabel.Size = new System.Drawing.Size(87, 16);
             this.Contactlabel.TabIndex = 28;
@@ -251,7 +261,8 @@
             // 
             this.Occupationlabel.AutoSize = true;
             this.Occupationlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Occupationlabel.Location = new System.Drawing.Point(17, 186);
+            this.Occupationlabel.ForeColor = System.Drawing.Color.Snow;
+            this.Occupationlabel.Location = new System.Drawing.Point(18, 218);
             this.Occupationlabel.Name = "Occupationlabel";
             this.Occupationlabel.Size = new System.Drawing.Size(89, 16);
             this.Occupationlabel.TabIndex = 29;
@@ -261,7 +272,8 @@
             // 
             this.Emaillabel.AutoSize = true;
             this.Emaillabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Emaillabel.Location = new System.Drawing.Point(57, 220);
+            this.Emaillabel.ForeColor = System.Drawing.Color.Snow;
+            this.Emaillabel.Location = new System.Drawing.Point(55, 252);
             this.Emaillabel.Name = "Emaillabel";
             this.Emaillabel.Size = new System.Drawing.Size(50, 16);
             this.Emaillabel.TabIndex = 30;
@@ -271,7 +283,8 @@
             // 
             this.Sexlabel.AutoSize = true;
             this.Sexlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Sexlabel.Location = new System.Drawing.Point(545, 35);
+            this.Sexlabel.ForeColor = System.Drawing.Color.Snow;
+            this.Sexlabel.Location = new System.Drawing.Point(540, 106);
             this.Sexlabel.Name = "Sexlabel";
             this.Sexlabel.Size = new System.Drawing.Size(37, 16);
             this.Sexlabel.TabIndex = 31;
@@ -281,7 +294,8 @@
             // 
             this.Agelabel.AutoSize = true;
             this.Agelabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Agelabel.Location = new System.Drawing.Point(545, 72);
+            this.Agelabel.ForeColor = System.Drawing.Color.Snow;
+            this.Agelabel.Location = new System.Drawing.Point(538, 137);
             this.Agelabel.Name = "Agelabel";
             this.Agelabel.Size = new System.Drawing.Size(39, 16);
             this.Agelabel.TabIndex = 32;
@@ -291,7 +305,8 @@
             // 
             this.Datelabel.AutoSize = true;
             this.Datelabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Datelabel.Location = new System.Drawing.Point(539, 112);
+            this.Datelabel.ForeColor = System.Drawing.Color.Snow;
+            this.Datelabel.Location = new System.Drawing.Point(538, 168);
             this.Datelabel.Name = "Datelabel";
             this.Datelabel.Size = new System.Drawing.Size(44, 16);
             this.Datelabel.TabIndex = 33;
@@ -301,7 +316,8 @@
             // 
             this.Temperaturelabel.AutoSize = true;
             this.Temperaturelabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Temperaturelabel.Location = new System.Drawing.Point(484, 152);
+            this.Temperaturelabel.ForeColor = System.Drawing.Color.Snow;
+            this.Temperaturelabel.Location = new System.Drawing.Point(484, 193);
             this.Temperaturelabel.Name = "Temperaturelabel";
             this.Temperaturelabel.Size = new System.Drawing.Size(100, 16);
             this.Temperaturelabel.TabIndex = 34;
@@ -311,7 +327,8 @@
             // 
             this.TimeInlabel.AutoSize = true;
             this.TimeInlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TimeInlabel.Location = new System.Drawing.Point(520, 189);
+            this.TimeInlabel.ForeColor = System.Drawing.Color.Snow;
+            this.TimeInlabel.Location = new System.Drawing.Point(521, 218);
             this.TimeInlabel.Name = "TimeInlabel";
             this.TimeInlabel.Size = new System.Drawing.Size(62, 16);
             this.TimeInlabel.TabIndex = 35;
@@ -321,7 +338,8 @@
             // 
             this.TimeOutlabel.AutoSize = true;
             this.TimeOutlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TimeOutlabel.Location = new System.Drawing.Point(509, 226);
+            this.TimeOutlabel.ForeColor = System.Drawing.Color.Snow;
+            this.TimeOutlabel.Location = new System.Drawing.Point(509, 246);
             this.TimeOutlabel.Name = "TimeOutlabel";
             this.TimeOutlabel.Size = new System.Drawing.Size(73, 16);
             this.TimeOutlabel.TabIndex = 36;
@@ -340,9 +358,10 @@
             this.Q1groupBox.Controls.Add(this.BreathgroupBox);
             this.Q1groupBox.Controls.Add(this.CoughgroupBox);
             this.Q1groupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Q1groupBox.Location = new System.Drawing.Point(12, 276);
+            this.Q1groupBox.ForeColor = System.Drawing.Color.Snow;
+            this.Q1groupBox.Location = new System.Drawing.Point(20, 293);
             this.Q1groupBox.Name = "Q1groupBox";
-            this.Q1groupBox.Size = new System.Drawing.Size(514, 377);
+            this.Q1groupBox.Size = new System.Drawing.Size(514, 360);
             this.Q1groupBox.TabIndex = 37;
             this.Q1groupBox.TabStop = false;
             this.Q1groupBox.Text = "Did you have any of the following symptoms?";
@@ -351,6 +370,7 @@
             // 
             this.FatiguegroupBox.Controls.Add(this.FatigueNradioButton);
             this.FatiguegroupBox.Controls.Add(this.FatigueYradioButton);
+            this.FatiguegroupBox.ForeColor = System.Drawing.Color.Snow;
             this.FatiguegroupBox.Location = new System.Drawing.Point(267, 305);
             this.FatiguegroupBox.Name = "FatiguegroupBox";
             this.FatiguegroupBox.Size = new System.Drawing.Size(226, 45);
@@ -384,6 +404,7 @@
             // 
             this.SmellgroupBox.Controls.Add(this.SmellNradioButton);
             this.SmellgroupBox.Controls.Add(this.SmellYradioButton);
+            this.SmellgroupBox.ForeColor = System.Drawing.Color.Snow;
             this.SmellgroupBox.Location = new System.Drawing.Point(17, 305);
             this.SmellgroupBox.Name = "SmellgroupBox";
             this.SmellgroupBox.Size = new System.Drawing.Size(226, 45);
@@ -417,6 +438,7 @@
             // 
             this.TastegroupBox.Controls.Add(this.TasteNradioButton);
             this.TastegroupBox.Controls.Add(this.TasteYradioButton);
+            this.TastegroupBox.ForeColor = System.Drawing.Color.Snow;
             this.TastegroupBox.Location = new System.Drawing.Point(267, 236);
             this.TastegroupBox.Name = "TastegroupBox";
             this.TastegroupBox.Size = new System.Drawing.Size(226, 45);
@@ -450,6 +472,7 @@
             // 
             this.SwallowgroupBox.Controls.Add(this.SwallowNradioButton);
             this.SwallowgroupBox.Controls.Add(this.SwallowYradioButton);
+            this.SwallowgroupBox.ForeColor = System.Drawing.Color.Snow;
             this.SwallowgroupBox.Location = new System.Drawing.Point(17, 236);
             this.SwallowgroupBox.Name = "SwallowgroupBox";
             this.SwallowgroupBox.Size = new System.Drawing.Size(226, 45);
@@ -483,6 +506,7 @@
             // 
             this.HeadAchegroupBox.Controls.Add(this.HeadNradioButton);
             this.HeadAchegroupBox.Controls.Add(this.HeadYradioButton);
+            this.HeadAchegroupBox.ForeColor = System.Drawing.Color.Snow;
             this.HeadAchegroupBox.Location = new System.Drawing.Point(267, 167);
             this.HeadAchegroupBox.Name = "HeadAchegroupBox";
             this.HeadAchegroupBox.Size = new System.Drawing.Size(226, 45);
@@ -516,7 +540,8 @@
             // 
             this.ChillsgroupBox.Controls.Add(this.ChillsNradioButton);
             this.ChillsgroupBox.Controls.Add(this.ChillsYradioButton);
-            this.ChillsgroupBox.Location = new System.Drawing.Point(17, 166);
+            this.ChillsgroupBox.ForeColor = System.Drawing.Color.Snow;
+            this.ChillsgroupBox.Location = new System.Drawing.Point(17, 167);
             this.ChillsgroupBox.Name = "ChillsgroupBox";
             this.ChillsgroupBox.Size = new System.Drawing.Size(226, 45);
             this.ChillsgroupBox.TabIndex = 4;
@@ -549,6 +574,7 @@
             // 
             this.FevergroupBox.Controls.Add(this.FeverNradioButton);
             this.FevergroupBox.Controls.Add(this.FeverYradioButton);
+            this.FevergroupBox.ForeColor = System.Drawing.Color.Snow;
             this.FevergroupBox.Location = new System.Drawing.Point(267, 95);
             this.FevergroupBox.Name = "FevergroupBox";
             this.FevergroupBox.Size = new System.Drawing.Size(226, 45);
@@ -582,6 +608,7 @@
             // 
             this.ThroatgroupBox.Controls.Add(this.ThroatNradioButton);
             this.ThroatgroupBox.Controls.Add(this.ThroatYradioButton);
+            this.ThroatgroupBox.ForeColor = System.Drawing.Color.Snow;
             this.ThroatgroupBox.Location = new System.Drawing.Point(17, 95);
             this.ThroatgroupBox.Name = "ThroatgroupBox";
             this.ThroatgroupBox.Size = new System.Drawing.Size(226, 45);
@@ -615,6 +642,7 @@
             // 
             this.BreathgroupBox.Controls.Add(this.BreathNradioButton);
             this.BreathgroupBox.Controls.Add(this.BreathYradioButton);
+            this.BreathgroupBox.ForeColor = System.Drawing.Color.Snow;
             this.BreathgroupBox.Location = new System.Drawing.Point(267, 31);
             this.BreathgroupBox.Name = "BreathgroupBox";
             this.BreathgroupBox.Size = new System.Drawing.Size(226, 45);
@@ -648,6 +676,7 @@
             // 
             this.CoughgroupBox.Controls.Add(this.CoughNradioButton);
             this.CoughgroupBox.Controls.Add(this.CoughYradioButton);
+            this.CoughgroupBox.ForeColor = System.Drawing.Color.Snow;
             this.CoughgroupBox.Location = new System.Drawing.Point(17, 31);
             this.CoughgroupBox.Name = "CoughgroupBox";
             this.CoughgroupBox.Size = new System.Drawing.Size(226, 45);
@@ -676,14 +705,14 @@
             this.CoughYradioButton.TabStop = true;
             this.CoughYradioButton.Text = "Yes";
             this.CoughYradioButton.UseVisualStyleBackColor = true;
-            this.CoughYradioButton.CheckedChanged += new System.EventHandler(this.CoughYradioButton_CheckedChanged);
             // 
             // Q2groupBox
             // 
             this.Q2groupBox.Controls.Add(this.Q2NradioButton);
             this.Q2groupBox.Controls.Add(this.Q2YradioButton);
             this.Q2groupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Q2groupBox.Location = new System.Drawing.Point(563, 349);
+            this.Q2groupBox.ForeColor = System.Drawing.Color.Snow;
+            this.Q2groupBox.Location = new System.Drawing.Point(563, 365);
             this.Q2groupBox.Name = "Q2groupBox";
             this.Q2groupBox.Size = new System.Drawing.Size(308, 87);
             this.Q2groupBox.TabIndex = 38;
@@ -718,7 +747,8 @@
             this.Q4groupBox.Controls.Add(this.Q4NradioButton);
             this.Q4groupBox.Controls.Add(this.Q4YradioButton);
             this.Q4groupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Q4groupBox.Location = new System.Drawing.Point(563, 522);
+            this.Q4groupBox.ForeColor = System.Drawing.Color.Snow;
+            this.Q4groupBox.Location = new System.Drawing.Point(563, 548);
             this.Q4groupBox.Name = "Q4groupBox";
             this.Q4groupBox.Size = new System.Drawing.Size(308, 63);
             this.Q4groupBox.TabIndex = 39;
@@ -752,7 +782,8 @@
             this.Q3groupBox.Controls.Add(this.Q3NradioButton);
             this.Q3groupBox.Controls.Add(this.Q3YradioButton);
             this.Q3groupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Q3groupBox.Location = new System.Drawing.Point(563, 443);
+            this.Q3groupBox.ForeColor = System.Drawing.Color.Snow;
+            this.Q3groupBox.Location = new System.Drawing.Point(563, 469);
             this.Q3groupBox.Name = "Q3groupBox";
             this.Q3groupBox.Size = new System.Drawing.Size(308, 63);
             this.Q3groupBox.TabIndex = 40;
@@ -786,7 +817,8 @@
             this.Q5groupBox.Controls.Add(this.Q5NradioButton);
             this.Q5groupBox.Controls.Add(this.Q5YradioButton);
             this.Q5groupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Q5groupBox.Location = new System.Drawing.Point(563, 276);
+            this.Q5groupBox.ForeColor = System.Drawing.Color.Snow;
+            this.Q5groupBox.Location = new System.Drawing.Point(563, 293);
             this.Q5groupBox.Name = "Q5groupBox";
             this.Q5groupBox.Size = new System.Drawing.Size(308, 58);
             this.Q5groupBox.TabIndex = 41;
@@ -815,11 +847,36 @@
             this.Q5YradioButton.Text = "Yes";
             this.Q5YradioButton.UseVisualStyleBackColor = true;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Teal;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Snow;
+            this.label1.Location = new System.Drawing.Point(242, 26);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(0, 54);
+            this.label1.TabIndex = 42;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Snow;
+            this.label2.Location = new System.Drawing.Point(46, 26);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(819, 69);
+            this.label2.TabIndex = 43;
+            this.label2.Text = "CONTACT TRACING FORM";
+            // 
             // ContactTracingForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Teal;
             this.ClientSize = new System.Drawing.Size(940, 665);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.Q5groupBox);
             this.Controls.Add(this.Q3groupBox);
             this.Controls.Add(this.Q4groupBox);
@@ -956,6 +1013,8 @@
         private System.Windows.Forms.GroupBox Q5groupBox;
         private System.Windows.Forms.RadioButton Q5NradioButton;
         private System.Windows.Forms.RadioButton Q5YradioButton;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
 
