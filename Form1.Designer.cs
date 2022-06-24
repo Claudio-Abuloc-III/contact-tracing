@@ -100,6 +100,7 @@
             this.Titlelabel = new System.Windows.Forms.Label();
             this.HeropictureBox = new System.Windows.Forms.PictureBox();
             this.Schoollabel = new System.Windows.Forms.Label();
+            this.Recordsbutton = new System.Windows.Forms.Button();
             this.Q1groupBox.SuspendLayout();
             this.FatiguegroupBox.SuspendLayout();
             this.SmellgroupBox.SuspendLayout();
@@ -894,12 +895,26 @@
             this.Schoollabel.TabIndex = 45;
             this.Schoollabel.Text = "GARNET ACADEMY";
             // 
+            // Recordsbutton
+            // 
+            this.Recordsbutton.BackColor = System.Drawing.Color.DarkCyan;
+            this.Recordsbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Recordsbutton.ForeColor = System.Drawing.Color.Snow;
+            this.Recordsbutton.Location = new System.Drawing.Point(21, 12);
+            this.Recordsbutton.Name = "Recordsbutton";
+            this.Recordsbutton.Size = new System.Drawing.Size(176, 44);
+            this.Recordsbutton.TabIndex = 46;
+            this.Recordsbutton.Text = "Records";
+            this.Recordsbutton.UseVisualStyleBackColor = false;
+            this.Recordsbutton.Click += new System.EventHandler(this.Recordsbutton_Click);
+            // 
             // ContactTracingForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Teal;
             this.ClientSize = new System.Drawing.Size(1372, 753);
+            this.Controls.Add(this.Recordsbutton);
             this.Controls.Add(this.Schoollabel);
             this.Controls.Add(this.AddresstextBox);
             this.Controls.Add(this.EmailtextBox);
@@ -1045,6 +1060,7 @@
         private System.Windows.Forms.Label Titlelabel;
         private System.Windows.Forms.PictureBox HeropictureBox;
         private System.Windows.Forms.Label Schoollabel;
+        private System.Windows.Forms.Button Recordsbutton;
     }
 }
 

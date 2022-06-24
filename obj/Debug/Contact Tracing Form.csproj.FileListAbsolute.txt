@@ -9,3 +9,4 @@ C:\Users\Claudine\source\repos\Contact Tracing Form\obj\Debug\Contact Tracing Fo
 C:\Users\Claudine\source\repos\Contact Tracing Form\obj\Debug\Contact Tracing Form.exe
 C:\Users\Claudine\source\repos\Contact Tracing Form\obj\Debug\Contact Tracing Form.pdb
 C:\Users\Claudine\source\repos\Contact Tracing Form\obj\Debug\Contact_Tracing_Form.ContactTracingForm.resources
+C:\Users\Claudine\source\repos\Contact Tracing Form\obj\Debug\Contact_Tracing_Form.Records.resources

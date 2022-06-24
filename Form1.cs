@@ -192,7 +192,11 @@ namespace Contact_Tracing_Form
             file.Close();
         }
 
-
+        private void Recordsbutton_Click(object sender, EventArgs e)
+        {
+            Records records = new Records();
+            records.Show();
+        }
     }
 }
 
