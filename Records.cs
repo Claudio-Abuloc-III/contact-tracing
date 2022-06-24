@@ -24,7 +24,7 @@ namespace Contact_Tracing_Form
             while (!reader.EndOfStream)
             {
                 String line = reader.ReadToEnd();
-                MessageBox.Show(line);
+                listBox1.Items.Add(line);
             }
         }
     }
