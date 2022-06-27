@@ -20,12 +20,10 @@ namespace Contact_Tracing_Form
 
         private void Listbutton_Click(object sender, EventArgs e)
         {
-            StreamReader reader = new StreamReader(@"D:\Claudio Abuloc Files\Contact Tracing\ContactTracing.txt");
-            while (!reader.EndOfStream)
-            {
-                String line = reader.ReadToEnd();
-                listBox1.Items.Add(line);
-            }
+            List <string> Readfile = File.ReadAllLines (@"D:\Claudio Abuloc Files\Contact Tracing\ContactTracing.txt").ToList ();
+           
         }
+
+
     }
 }

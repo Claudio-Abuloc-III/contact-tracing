@@ -35,10 +35,10 @@
             // 
             // RecordstextBox
             // 
-            this.RecordstextBox.Location = new System.Drawing.Point(328, 21);
+            this.RecordstextBox.Location = new System.Drawing.Point(489, 48);
             this.RecordstextBox.Multiline = true;
             this.RecordstextBox.Name = "RecordstextBox";
-            this.RecordstextBox.Size = new System.Drawing.Size(267, 27);
+            this.RecordstextBox.Size = new System.Drawing.Size(293, 136);
             this.RecordstextBox.TabIndex = 0;
             // 
             // Listbutton
@@ -55,9 +55,9 @@
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(25, 135);
+            this.listBox1.Location = new System.Drawing.Point(39, 135);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(756, 276);
+            this.listBox1.Size = new System.Drawing.Size(427, 276);
             this.listBox1.TabIndex = 2;
             // 
             // Records
