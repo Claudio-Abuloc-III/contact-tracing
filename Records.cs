@@ -20,13 +20,13 @@ namespace Contact_Tracing_Form
 
         private void Listbutton_Click(object sender, EventArgs e)
         {
+            
             StreamReader reader = new StreamReader(@"D:\Claudio Abuloc Files\Contact Tracing\ContactTracing.txt");
             while (!reader.EndOfStream)
             {
-                String line = reader.ReadToEnd();
-                RecordstextBox.Text = line;
-
+                RecordListbox.Items.Add(reader.ReadLine());
             }
+            reader.Close();
         }
 
 
