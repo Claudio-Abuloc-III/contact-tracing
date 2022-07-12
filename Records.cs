@@ -55,13 +55,76 @@ namespace Contact_Tracing_Form
                 FilteredlistBox.Items.Clear();
                 FilteredlistBox.Items.Add("John Lloyd Cruz");
             }
+            
 
-            if ()
-            {
 
-            }
            
 
+        }
+
+        private void Infobutton_Click(object sender, EventArgs e)
+        {
+            if (FilteredlistBox.SelectedItems.Contains("Joshua Dela Cruz"))
+            {
+                InfolistBox.Items.Clear();
+                InfolistBox.Items.Add("Name: Joshua Dela Cruz");
+                InfolistBox.Items.Add("Sex: Male");
+                InfolistBox.Items.Add("Age: 16");
+                InfolistBox.Items.Add("Birthday: December 25, 2006");
+                InfolistBox.Items.Add("Address: Manila City");
+                InfolistBox.Items.Add("Contact No: 098385530723");
+                InfolistBox.Items.Add("Year+Section: 10 - Diamond");
+                InfolistBox.Items.Add("Email: JoshuaDelaCruz@gmail.com");
+                InfolistBox.Items.Add("Date: May 16, 2022");
+                InfolistBox.Items.Add("Temperature: 36");
+                InfolistBox.Items.Add("Time In: 7:30 AM");
+                InfolistBox.Items.Add("Time Out: 9:30 AM");
+                InfolistBox.Items.Add("Do you have any of the following symptoms?: ");
+                InfolistBox.Items.Add("Cough: No");
+                InfolistBox.Items.Add("Sore Throat: No");
+                InfolistBox.Items.Add("Chills: No");
+                InfolistBox.Items.Add("Difficulty Swallowing: No");
+                InfolistBox.Items.Add("Loss of Smell: No");
+                InfolistBox.Items.Add("Shortness of Breath: No");
+                InfolistBox.Items.Add("Fever: No");
+                InfolistBox.Items.Add("Headache: No");
+                InfolistBox.Items.Add("Loss of Taste: No");
+                InfolistBox.Items.Add("Fatigue: No");
+                InfolistBox.Items.Add("Do you have any travel history for the past 14 days?: No");
+                InfolistBox.Items.Add("Have you had close contact with anyone with a confirmed or probable case of COVID-19 within 14 days? No");
+                InfolistBox.Items.Add("Are you positive for COVID -19?: No");
+                InfolistBox.Items.Add("If yes, did you quarantine for 14 days?: ");
+            }
+            if (FilteredlistBox.SelectedItems.Contains("John Lloyd Cruz"))
+            {
+                InfolistBox.Items.Add("Name: John Lloyd Cruz");
+                InfolistBox.Items.Add("Sex: Male");
+                InfolistBox.Items.Add("Age: 16");
+                InfolistBox.Items.Add("Birthday: September 10, 2006");
+                InfolistBox.Items.Add("Address: Quezon City");
+                InfolistBox.Items.Add("Contact No: 09983738735");
+                InfolistBox.Items.Add("Year+Section: 10 - Sapphire");
+                InfolistBox.Items.Add("Email: JohnLloydCruz@gmail.com");
+                InfolistBox.Items.Add("Date: May 15, 2022");
+                InfolistBox.Items.Add("Temperature: 35");
+                InfolistBox.Items.Add("Time In: 10:00 AM");
+                InfolistBox.Items.Add("Time Out: 10:30 AM");
+                InfolistBox.Items.Add("Do you have any of the following symptoms?: ");
+                InfolistBox.Items.Add("Cough: No");
+                InfolistBox.Items.Add("Sore Throat: No");
+                InfolistBox.Items.Add("Chills: No");
+                InfolistBox.Items.Add("Difficulty Swallowing: No");
+                InfolistBox.Items.Add("Loss of Smell: No");
+                InfolistBox.Items.Add("Shortness of Breath: No");
+                InfolistBox.Items.Add("Fever: No");
+                InfolistBox.Items.Add("Headache: No");
+                InfolistBox.Items.Add("Loss of Taste: No");
+                InfolistBox.Items.Add("Fatigue: No");
+                InfolistBox.Items.Add("Do you have any travel history for the past 14 days?: No");
+                InfolistBox.Items.Add("Have you had close contact with anyone with a confirmed or probable case of COVID-19 within 14 days? No");
+                InfolistBox.Items.Add("Are you positive for COVID -19?: No");
+                InfolistBox.Items.Add("If yes, did you quarantine for 14 days?: ");
+            }
         }
     }
 }

@@ -33,6 +33,8 @@
             this.SearchDateButton = new System.Windows.Forms.Button();
             this.SearchtextBox = new System.Windows.Forms.TextBox();
             this.FilteredlistBox = new System.Windows.Forms.ListBox();
+            this.Infobutton = new System.Windows.Forms.Button();
+            this.InfolistBox = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // Listbutton
@@ -49,9 +51,9 @@
             // 
             this.RecordListbox.FormattingEnabled = true;
             this.RecordListbox.ItemHeight = 16;
-            this.RecordListbox.Location = new System.Drawing.Point(682, 54);
+            this.RecordListbox.Location = new System.Drawing.Point(626, 54);
             this.RecordListbox.Name = "RecordListbox";
-            this.RecordListbox.Size = new System.Drawing.Size(427, 276);
+            this.RecordListbox.Size = new System.Drawing.Size(483, 324);
             this.RecordListbox.TabIndex = 2;
             // 
             // SearchDateButton
@@ -75,16 +77,37 @@
             // 
             this.FilteredlistBox.FormattingEnabled = true;
             this.FilteredlistBox.ItemHeight = 16;
-            this.FilteredlistBox.Location = new System.Drawing.Point(13, 54);
+            this.FilteredlistBox.Location = new System.Drawing.Point(154, 54);
             this.FilteredlistBox.Name = "FilteredlistBox";
-            this.FilteredlistBox.Size = new System.Drawing.Size(406, 260);
+            this.FilteredlistBox.Size = new System.Drawing.Size(265, 180);
             this.FilteredlistBox.TabIndex = 5;
+            // 
+            // Infobutton
+            // 
+            this.Infobutton.Location = new System.Drawing.Point(12, 54);
+            this.Infobutton.Name = "Infobutton";
+            this.Infobutton.Size = new System.Drawing.Size(122, 32);
+            this.Infobutton.TabIndex = 7;
+            this.Infobutton.Text = "Info";
+            this.Infobutton.UseVisualStyleBackColor = true;
+            this.Infobutton.Click += new System.EventHandler(this.Infobutton_Click);
+            // 
+            // InfolistBox
+            // 
+            this.InfolistBox.FormattingEnabled = true;
+            this.InfolistBox.ItemHeight = 16;
+            this.InfolistBox.Location = new System.Drawing.Point(30, 251);
+            this.InfolistBox.Name = "InfolistBox";
+            this.InfolistBox.Size = new System.Drawing.Size(403, 260);
+            this.InfolistBox.TabIndex = 8;
             // 
             // Records
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1139, 566);
+            this.Controls.Add(this.InfolistBox);
+            this.Controls.Add(this.Infobutton);
             this.Controls.Add(this.FilteredlistBox);
             this.Controls.Add(this.SearchtextBox);
             this.Controls.Add(this.SearchDateButton);
@@ -103,5 +126,7 @@
         private System.Windows.Forms.Button SearchDateButton;
         private System.Windows.Forms.TextBox SearchtextBox;
         private System.Windows.Forms.ListBox FilteredlistBox;
+        private System.Windows.Forms.Button Infobutton;
+        private System.Windows.Forms.ListBox InfolistBox;
     }
 }
