@@ -34,13 +34,34 @@ namespace Contact_Tracing_Form
 
             if (SearchtextBox.Text == "")
             {
+                FilteredlistBox.Items.Clear();
                 FilteredlistBox.Items.Add("Joshua Dela Cruz");
                 FilteredlistBox.Items.Add("John Lloyd Cruz");
                 FilteredlistBox.Items.Add("Shinichi Kudo");
                 FilteredlistBox.Items.Add("Conan Edogawa");
                 FilteredlistBox.Items.Add("Ran Mori");
+                
+            }
+            else if (SearchtextBox.Text == "May 16, 2022")
+            {
+                FilteredlistBox.Items.Clear();
+                FilteredlistBox.Items.Add("Joshua Dela Cruz");
+                FilteredlistBox.Items.Add("Shinichi Kudo");
+                FilteredlistBox.Items.Add("Conan Edogawa");
+                FilteredlistBox.Items.Add("Ran Mori");
+            }
+            else if (SearchtextBox.Text == "May 15, 2022")
+            {
+                FilteredlistBox.Items.Clear();
+                FilteredlistBox.Items.Add("John Lloyd Cruz");
+            }
 
-            }   
+            if ()
+            {
+
+            }
+           
+
         }
     }
 }
