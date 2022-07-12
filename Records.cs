@@ -36,6 +36,9 @@ namespace Contact_Tracing_Form
             {
                 FilteredlistBox.Items.Add("Joshua Dela Cruz");
                 FilteredlistBox.Items.Add("John Lloyd Cruz");
+                FilteredlistBox.Items.Add("Shinichi Kudo");
+                FilteredlistBox.Items.Add("Conan Edogawa");
+                FilteredlistBox.Items.Add("Ran Mori");
 
             }   
         }
