@@ -39,31 +39,35 @@
             // 
             // Listbutton
             // 
-            this.Listbutton.Location = new System.Drawing.Point(626, 8);
+            this.Listbutton.BackColor = System.Drawing.Color.DarkCyan;
+            this.Listbutton.ForeColor = System.Drawing.Color.Snow;
+            this.Listbutton.Location = new System.Drawing.Point(457, 26);
             this.Listbutton.Name = "Listbutton";
             this.Listbutton.Size = new System.Drawing.Size(124, 40);
             this.Listbutton.TabIndex = 1;
             this.Listbutton.Text = "List all Records";
-            this.Listbutton.UseVisualStyleBackColor = true;
+            this.Listbutton.UseVisualStyleBackColor = false;
             this.Listbutton.Click += new System.EventHandler(this.Listbutton_Click);
             // 
             // RecordListbox
             // 
             this.RecordListbox.FormattingEnabled = true;
             this.RecordListbox.ItemHeight = 16;
-            this.RecordListbox.Location = new System.Drawing.Point(626, 54);
+            this.RecordListbox.Location = new System.Drawing.Point(457, 72);
             this.RecordListbox.Name = "RecordListbox";
-            this.RecordListbox.Size = new System.Drawing.Size(483, 324);
+            this.RecordListbox.Size = new System.Drawing.Size(483, 436);
             this.RecordListbox.TabIndex = 2;
             // 
             // SearchDateButton
             // 
+            this.SearchDateButton.BackColor = System.Drawing.Color.DarkCyan;
+            this.SearchDateButton.ForeColor = System.Drawing.Color.Snow;
             this.SearchDateButton.Location = new System.Drawing.Point(12, 25);
             this.SearchDateButton.Name = "SearchDateButton";
             this.SearchDateButton.Size = new System.Drawing.Size(136, 23);
             this.SearchDateButton.TabIndex = 3;
             this.SearchDateButton.Text = "Search Date";
-            this.SearchDateButton.UseVisualStyleBackColor = true;
+            this.SearchDateButton.UseVisualStyleBackColor = false;
             this.SearchDateButton.Click += new System.EventHandler(this.SearchDateButton_Click);
             // 
             // SearchtextBox
@@ -84,12 +88,14 @@
             // 
             // Infobutton
             // 
+            this.Infobutton.BackColor = System.Drawing.Color.DarkCyan;
+            this.Infobutton.ForeColor = System.Drawing.Color.Snow;
             this.Infobutton.Location = new System.Drawing.Point(12, 54);
             this.Infobutton.Name = "Infobutton";
             this.Infobutton.Size = new System.Drawing.Size(122, 32);
             this.Infobutton.TabIndex = 7;
             this.Infobutton.Text = "Info";
-            this.Infobutton.UseVisualStyleBackColor = true;
+            this.Infobutton.UseVisualStyleBackColor = false;
             this.Infobutton.Click += new System.EventHandler(this.Infobutton_Click);
             // 
             // InfolistBox
@@ -105,7 +111,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1139, 566);
+            this.BackColor = System.Drawing.Color.Teal;
+            this.ClientSize = new System.Drawing.Size(984, 529);
             this.Controls.Add(this.InfolistBox);
             this.Controls.Add(this.Infobutton);
             this.Controls.Add(this.FilteredlistBox);

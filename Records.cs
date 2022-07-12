@@ -97,6 +97,7 @@ namespace Contact_Tracing_Form
             }
             if (FilteredlistBox.SelectedItems.Contains("John Lloyd Cruz"))
             {
+                InfolistBox.Items.Clear();
                 InfolistBox.Items.Add("Name: John Lloyd Cruz");
                 InfolistBox.Items.Add("Sex: Male");
                 InfolistBox.Items.Add("Age: 16");
@@ -117,6 +118,99 @@ namespace Contact_Tracing_Form
                 InfolistBox.Items.Add("Loss of Smell: No");
                 InfolistBox.Items.Add("Shortness of Breath: No");
                 InfolistBox.Items.Add("Fever: No");
+                InfolistBox.Items.Add("Headache: No");
+                InfolistBox.Items.Add("Loss of Taste: No");
+                InfolistBox.Items.Add("Fatigue: No");
+                InfolistBox.Items.Add("Do you have any travel history for the past 14 days?: No");
+                InfolistBox.Items.Add("Have you had close contact with anyone with a confirmed or probable case of COVID-19 within 14 days? No");
+                InfolistBox.Items.Add("Are you positive for COVID -19?: No");
+                InfolistBox.Items.Add("If yes, did you quarantine for 14 days?: ");
+            }
+            if (FilteredlistBox.SelectedItems.Contains("Shinichi Kudo"))
+            {
+                InfolistBox.Items.Clear();
+                InfolistBox.Items.Add("Name: Shinichi Kudo");
+                InfolistBox.Items.Add("Sex: Male");
+                InfolistBox.Items.Add("Age: 16");
+                InfolistBox.Items.Add("Birthday: March 15, 2006");
+                InfolistBox.Items.Add("Address: Novaliches");
+                InfolistBox.Items.Add("Contact No: 099999999");
+                InfolistBox.Items.Add("Year+Section: 10-Garnet");
+                InfolistBox.Items.Add("Email: ShinichiKudo@gmail.com");
+                InfolistBox.Items.Add("Date: May 16, 2022");
+                InfolistBox.Items.Add("Temperature: 35");
+                InfolistBox.Items.Add("Time In: 10:00 AM");
+                InfolistBox.Items.Add("Time Out: 11:00 AM");
+                InfolistBox.Items.Add("Do you have any of the following symptoms?: ");
+                InfolistBox.Items.Add("Cough: No");
+                InfolistBox.Items.Add("Sore Throat: No");
+                InfolistBox.Items.Add("Chills: No");
+                InfolistBox.Items.Add("Difficulty Swallowing: No");
+                InfolistBox.Items.Add("Loss of Smell: No");
+                InfolistBox.Items.Add("Shortness of Breath: No");
+                InfolistBox.Items.Add("Fever: No");
+                InfolistBox.Items.Add("Headache: No");
+                InfolistBox.Items.Add("Loss of Taste: No");
+                InfolistBox.Items.Add("Fatigue: No");
+                InfolistBox.Items.Add("Do you have any travel history for the past 14 days?: No");
+                InfolistBox.Items.Add("Have you had close contact with anyone with a confirmed or probable case of COVID-19 within 14 days? No");
+                InfolistBox.Items.Add("Are you positive for COVID -19?: No");
+                InfolistBox.Items.Add("If yes, did you quarantine for 14 days?: ");
+            }
+            if (FilteredlistBox.SelectedItems.Contains("Conan Edogawa"))
+            {
+                InfolistBox.Items.Clear();
+                InfolistBox.Items.Add("Name: Conan Edogawa");
+                InfolistBox.Items.Add("Sex: Male");
+                InfolistBox.Items.Add("Age: 15");
+                InfolistBox.Items.Add("Birthday: April 4, 2006");
+                InfolistBox.Items.Add("Address: Anonas");
+                InfolistBox.Items.Add("Contact No: 099999999");
+                InfolistBox.Items.Add("Year+Section: 10-Amethyst");
+                InfolistBox.Items.Add("Email: ConanEdogawa@gmail.com");
+                InfolistBox.Items.Add("Date: May 16, 2022");
+                InfolistBox.Items.Add("Temperature: 35.5");
+                InfolistBox.Items.Add("Time In: 10:30 AM");
+                InfolistBox.Items.Add("Time Out: 11:30 AM");
+                InfolistBox.Items.Add("Do you have any of the following symptoms?: ");
+                InfolistBox.Items.Add("Cough: No");
+                InfolistBox.Items.Add("Sore Throat: No");
+                InfolistBox.Items.Add("Chills: No");
+                InfolistBox.Items.Add("Difficulty Swallowing: No");
+                InfolistBox.Items.Add("Loss of Smell: No");
+                InfolistBox.Items.Add("Shortness of Breath: No");
+                InfolistBox.Items.Add("Fever: No");
+                InfolistBox.Items.Add("Headache: No");
+                InfolistBox.Items.Add("Loss of Taste: No");
+                InfolistBox.Items.Add("Fatigue: No");
+                InfolistBox.Items.Add("Do you have any travel history for the past 14 days?: No");
+                InfolistBox.Items.Add("Have you had close contact with anyone with a confirmed or probable case of COVID-19 within 14 days? No");
+                InfolistBox.Items.Add("Are you positive for COVID -19?: No");
+                InfolistBox.Items.Add("If yes, did you quarantine for 14 days?: ");
+            }
+            if (FilteredlistBox.SelectedItems.Contains("Ran Mori"))
+            {
+                InfolistBox.Items.Clear();
+                InfolistBox.Items.Add("Name: Ran Mori");
+                InfolistBox.Items.Add("Sex: Female");
+                InfolistBox.Items.Add("Age: 16");
+                InfolistBox.Items.Add("Birthday: July 24, 2006");
+                InfolistBox.Items.Add("Address: Katipunan");
+                InfolistBox.Items.Add("Contact No: 099999999");
+                InfolistBox.Items.Add("Year+Section: 10-Ruby");
+                InfolistBox.Items.Add("Email: RanMori@gmail.com");
+                InfolistBox.Items.Add("Date: May 16, 2022");
+                InfolistBox.Items.Add("Temperature: 39");
+                InfolistBox.Items.Add("Time In: 12:00 PM");
+                InfolistBox.Items.Add("Time Out: 1:00 PM");
+                InfolistBox.Items.Add("Do you have any of the following symptoms?: ");
+                InfolistBox.Items.Add("Cough: No");
+                InfolistBox.Items.Add("Sore Throat: No");
+                InfolistBox.Items.Add("Chills: No");
+                InfolistBox.Items.Add("Difficulty Swallowing: No");
+                InfolistBox.Items.Add("Loss of Smell: No");
+                InfolistBox.Items.Add("Shortness of Breath: No");
+                InfolistBox.Items.Add("Fever: Yes");
                 InfolistBox.Items.Add("Headache: No");
                 InfolistBox.Items.Add("Loss of Taste: No");
                 InfolistBox.Items.Add("Fatigue: No");
