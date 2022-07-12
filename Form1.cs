@@ -18,7 +18,7 @@ namespace Contact_Tracing_Form
         {
             InitializeComponent();
         }
-
+        
         private void Savebutton_Click(object sender, EventArgs e)
         {
             StreamWriter file = new StreamWriter(@"D:\Claudio Abuloc Files\Contact Tracing\ContactTracing.txt",true);

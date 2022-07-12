@@ -29,6 +29,15 @@ namespace Contact_Tracing_Form
             reader.Close();
         }
 
+        private void SearchDateButton_Click(object sender, EventArgs e)
+        {
 
+            if (SearchtextBox.Text == "")
+            {
+                FilteredlistBox.Items.Add("Joshua Dela Cruz");
+                FilteredlistBox.Items.Add("John Lloyd Cruz");
+
+            }   
+        }
     }
 }
