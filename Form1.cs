@@ -197,6 +197,12 @@ namespace Contact_Tracing_Form
             Records records = new Records();
             records.Show();
         }
+
+        private void QRbutton_Click(object sender, EventArgs e)
+        {
+            QRForm qr = new QRForm();
+            qr.Show();
+        }
     }
 }
 

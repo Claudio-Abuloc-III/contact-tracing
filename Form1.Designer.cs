@@ -98,9 +98,10 @@
             this.Q5YradioButton = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
             this.Titlelabel = new System.Windows.Forms.Label();
-            this.HeropictureBox = new System.Windows.Forms.PictureBox();
             this.Schoollabel = new System.Windows.Forms.Label();
             this.Recordsbutton = new System.Windows.Forms.Button();
+            this.QRbutton = new System.Windows.Forms.Button();
+            this.HeropictureBox = new System.Windows.Forms.PictureBox();
             this.Q1groupBox.SuspendLayout();
             this.FatiguegroupBox.SuspendLayout();
             this.SmellgroupBox.SuspendLayout();
@@ -873,17 +874,6 @@
             this.Titlelabel.TabIndex = 43;
             this.Titlelabel.Text = "CONTACT TRACING FORM";
             // 
-            // HeropictureBox
-            // 
-            this.HeropictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.HeropictureBox.Image = global::Contact_Tracing_Form.Properties.Resources.hero;
-            this.HeropictureBox.Location = new System.Drawing.Point(-128, -3);
-            this.HeropictureBox.Name = "HeropictureBox";
-            this.HeropictureBox.Size = new System.Drawing.Size(679, 824);
-            this.HeropictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.HeropictureBox.TabIndex = 44;
-            this.HeropictureBox.TabStop = false;
-            // 
             // Schoollabel
             // 
             this.Schoollabel.AutoSize = true;
@@ -908,12 +898,37 @@
             this.Recordsbutton.UseVisualStyleBackColor = false;
             this.Recordsbutton.Click += new System.EventHandler(this.Recordsbutton_Click);
             // 
+            // QRbutton
+            // 
+            this.QRbutton.BackColor = System.Drawing.Color.Teal;
+            this.QRbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.QRbutton.ForeColor = System.Drawing.Color.Snow;
+            this.QRbutton.Location = new System.Drawing.Point(232, 12);
+            this.QRbutton.Name = "QRbutton";
+            this.QRbutton.Size = new System.Drawing.Size(200, 43);
+            this.QRbutton.TabIndex = 47;
+            this.QRbutton.Text = "QR CODE";
+            this.QRbutton.UseVisualStyleBackColor = false;
+            this.QRbutton.Click += new System.EventHandler(this.QRbutton_Click);
+            // 
+            // HeropictureBox
+            // 
+            this.HeropictureBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.HeropictureBox.Image = global::Contact_Tracing_Form.Properties.Resources.hero;
+            this.HeropictureBox.Location = new System.Drawing.Point(-128, -3);
+            this.HeropictureBox.Name = "HeropictureBox";
+            this.HeropictureBox.Size = new System.Drawing.Size(679, 824);
+            this.HeropictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.HeropictureBox.TabIndex = 44;
+            this.HeropictureBox.TabStop = false;
+            // 
             // ContactTracingForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Teal;
             this.ClientSize = new System.Drawing.Size(1372, 753);
+            this.Controls.Add(this.QRbutton);
             this.Controls.Add(this.Recordsbutton);
             this.Controls.Add(this.Schoollabel);
             this.Controls.Add(this.AddresstextBox);
@@ -1061,6 +1076,7 @@
         private System.Windows.Forms.PictureBox HeropictureBox;
         private System.Windows.Forms.Label Schoollabel;
         private System.Windows.Forms.Button Recordsbutton;
+        private System.Windows.Forms.Button QRbutton;
     }
 }
 
