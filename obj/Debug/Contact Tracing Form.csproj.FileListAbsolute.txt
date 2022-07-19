@@ -14,3 +14,13 @@ C:\Users\Claudine\source\repos\Contact Tracing Form\obj\Debug\Contact_Tracing_Fo
 C:\Users\Claudine\source\repos\Contact Tracing Form\obj\Debug\Contact_Tracing_Form.QRForm.resources
 C:\Users\Claudine\source\repos\Contact Tracing Form\bin\Debug\QRCoder.dll
 C:\Users\Claudine\source\repos\Contact Tracing Form\obj\Debug\Contact Tracing Form.csproj.CopyComplete
+C:\Users\Claudine\source\repos\Contact Tracing Form\bin\Debug\AForge.dll
+C:\Users\Claudine\source\repos\Contact Tracing Form\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\Claudine\source\repos\Contact Tracing Form\bin\Debug\AForge.Video.dll
+C:\Users\Claudine\source\repos\Contact Tracing Form\bin\Debug\zxing.dll
+C:\Users\Claudine\source\repos\Contact Tracing Form\bin\Debug\zxing.presentation.dll
+C:\Users\Claudine\source\repos\Contact Tracing Form\bin\Debug\AForge.xml
+C:\Users\Claudine\source\repos\Contact Tracing Form\bin\Debug\AForge.Video.xml
+C:\Users\Claudine\source\repos\Contact Tracing Form\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\Claudine\source\repos\Contact Tracing Form\bin\Debug\zxing.xml
+C:\Users\Claudine\source\repos\Contact Tracing Form\bin\Debug\zxing.presentation.xml
