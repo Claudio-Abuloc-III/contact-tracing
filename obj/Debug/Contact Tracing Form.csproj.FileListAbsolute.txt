@@ -12,3 +12,5 @@ C:\Users\Claudine\source\repos\Contact Tracing Form\obj\Debug\Contact_Tracing_Fo
 C:\Users\Claudine\source\repos\Contact Tracing Form\obj\Debug\Contact_Tracing_Form.Records.resources
 C:\Users\Claudine\source\repos\Contact Tracing Form\obj\Debug\Contact_Tracing_Form.Form2.resources
 C:\Users\Claudine\source\repos\Contact Tracing Form\obj\Debug\Contact_Tracing_Form.QRForm.resources
+C:\Users\Claudine\source\repos\Contact Tracing Form\bin\Debug\QRCoder.dll
+C:\Users\Claudine\source\repos\Contact Tracing Form\obj\Debug\Contact Tracing Form.csproj.CopyComplete
