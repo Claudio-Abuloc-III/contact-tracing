@@ -40,7 +40,8 @@ namespace Contact_Tracing_Form
                 FilteredlistBox.Items.Add("Shinichi Kudo");
                 FilteredlistBox.Items.Add("Conan Edogawa");
                 FilteredlistBox.Items.Add("Ran Mori");
-                
+                FilteredlistBox.Items.Add("Claudio Kitagawa");
+
             }
             else if (SearchtextBox.Text == "May 16, 2022")
             {
@@ -54,6 +55,11 @@ namespace Contact_Tracing_Form
             {
                 FilteredlistBox.Items.Clear();
                 FilteredlistBox.Items.Add("John Lloyd Cruz");
+            }
+            else if (SearchtextBox.Text == "July 20, 2022")
+            {
+                FilteredlistBox.Items.Clear();
+                FilteredlistBox.Items.Add("Claudio Kitagawa");
             }
             
 
@@ -200,6 +206,37 @@ namespace Contact_Tracing_Form
                 InfolistBox.Items.Add("Year+Section: 10-Ruby");
                 InfolistBox.Items.Add("Email: RanMori@gmail.com");
                 InfolistBox.Items.Add("Date: May 16, 2022");
+                InfolistBox.Items.Add("Temperature: 39");
+                InfolistBox.Items.Add("Time In: 12:00 PM");
+                InfolistBox.Items.Add("Time Out: 1:00 PM");
+                InfolistBox.Items.Add("Do you have any of the following symptoms?: ");
+                InfolistBox.Items.Add("Cough: No");
+                InfolistBox.Items.Add("Sore Throat: No");
+                InfolistBox.Items.Add("Chills: No");
+                InfolistBox.Items.Add("Difficulty Swallowing: No");
+                InfolistBox.Items.Add("Loss of Smell: No");
+                InfolistBox.Items.Add("Shortness of Breath: No");
+                InfolistBox.Items.Add("Fever: Yes");
+                InfolistBox.Items.Add("Headache: No");
+                InfolistBox.Items.Add("Loss of Taste: No");
+                InfolistBox.Items.Add("Fatigue: No");
+                InfolistBox.Items.Add("Do you have any travel history for the past 14 days?: No");
+                InfolistBox.Items.Add("Have you had close contact with anyone with a confirmed or probable case of COVID-19 within 14 days? No");
+                InfolistBox.Items.Add("Are you positive for COVID -19?: No");
+                InfolistBox.Items.Add("If yes, did you quarantine for 14 days?: ");
+            }
+            if (FilteredlistBox.SelectedItems.Contains("Claudio Kitagawa"))
+            {
+                InfolistBox.Items.Clear();
+                InfolistBox.Items.Add("Name: Claudio Kitagawa");
+                InfolistBox.Items.Add("Sex: Male");
+                InfolistBox.Items.Add("Age: 20");
+                InfolistBox.Items.Add("Birthday: Sep x, 20xx");
+                InfolistBox.Items.Add("Address: Quezon City");
+                InfolistBox.Items.Add("Contact No: 099999999");
+                InfolistBox.Items.Add("Year+Section: 10 - Diamond");
+                InfolistBox.Items.Add("Email: claudioxxxxx@gmail.com");
+                InfolistBox.Items.Add("Date: July 20, 2022");
                 InfolistBox.Items.Add("Temperature: 39");
                 InfolistBox.Items.Add("Time In: 12:00 PM");
                 InfolistBox.Items.Add("Time Out: 1:00 PM");

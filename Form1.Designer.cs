@@ -102,6 +102,7 @@
             this.Recordsbutton = new System.Windows.Forms.Button();
             this.QRbutton = new System.Windows.Forms.Button();
             this.HeropictureBox = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.Q1groupBox.SuspendLayout();
             this.FatiguegroupBox.SuspendLayout();
             this.SmellgroupBox.SuspendLayout();
@@ -922,12 +923,26 @@
             this.HeropictureBox.TabIndex = 44;
             this.HeropictureBox.TabStop = false;
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Teal;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.Snow;
+            this.button1.Location = new System.Drawing.Point(257, 61);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(140, 41);
+            this.button1.TabIndex = 48;
+            this.button1.Text = "QR GO";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // ContactTracingForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Teal;
             this.ClientSize = new System.Drawing.Size(1372, 753);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.QRbutton);
             this.Controls.Add(this.Recordsbutton);
             this.Controls.Add(this.Schoollabel);
@@ -1077,6 +1092,7 @@
         private System.Windows.Forms.Label Schoollabel;
         private System.Windows.Forms.Button Recordsbutton;
         private System.Windows.Forms.Button QRbutton;
+        private System.Windows.Forms.Button button1;
     }
 }
 

@@ -18,10 +18,10 @@ namespace Contact_Tracing_Form
         {
             InitializeComponent();
         }
-        
+
         private void Savebutton_Click(object sender, EventArgs e)
         {
-            StreamWriter file = new StreamWriter(@"D:\Claudio Abuloc Files\Contact Tracing\ContactTracing.txt",true);
+            StreamWriter file = new StreamWriter(@"D:\Claudio Abuloc Files\Contact Tracing\ContactTracing.txt", true);
             file.WriteLine("Name: " + NametextBox.Text);
             file.WriteLine("Sex: " + SextextBox.Text);
             file.WriteLine("Age: " + AgetextBox.Text);
@@ -202,6 +202,22 @@ namespace Contact_Tracing_Form
         {
             QRForm qr = new QRForm();
             qr.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            NametextBox.Text = "Claudio Kitagawa";
+            SextextBox.Text = "Male";
+            AgetextBox.Text = "20";
+            BirthdaytextBox.Text = "Sep x, 20xx";
+            AddresstextBox.Text = "Quezon City";
+            ContactNotextBox.Text = "099999999";
+            YeartextBox.Text = "10 - Diamond";
+            EmailtextBox.Text = "claudioxxxxx@gmail.com";
+            DatetextBox.Text = "July 20, 2022";
+            TemperaturetextBox.Text = "39";
+            TimeIntextBox.Text="12:00 PM";
+            TimeOuttextBox.Text = "1:00 PM";
         }
     }
 }

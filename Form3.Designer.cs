@@ -48,7 +48,7 @@
             this.Generatebutton.BackColor = System.Drawing.Color.Teal;
             this.Generatebutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Generatebutton.ForeColor = System.Drawing.Color.Snow;
-            this.Generatebutton.Location = new System.Drawing.Point(122, 464);
+            this.Generatebutton.Location = new System.Drawing.Point(178, 417);
             this.Generatebutton.Name = "Generatebutton";
             this.Generatebutton.Size = new System.Drawing.Size(175, 43);
             this.Generatebutton.TabIndex = 0;
@@ -79,9 +79,10 @@
             // 
             // QRtextBox
             // 
-            this.QRtextBox.Location = new System.Drawing.Point(28, 419);
+            this.QRtextBox.Location = new System.Drawing.Point(437, 92);
+            this.QRtextBox.Multiline = true;
             this.QRtextBox.Name = "QRtextBox";
-            this.QRtextBox.Size = new System.Drawing.Size(397, 22);
+            this.QRtextBox.Size = new System.Drawing.Size(261, 230);
             this.QRtextBox.TabIndex = 3;
             // 
             // ReadQRbutton
@@ -89,7 +90,7 @@
             this.ReadQRbutton.BackColor = System.Drawing.Color.Teal;
             this.ReadQRbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ReadQRbutton.ForeColor = System.Drawing.Color.Snow;
-            this.ReadQRbutton.Location = new System.Drawing.Point(940, 398);
+            this.ReadQRbutton.Location = new System.Drawing.Point(852, 436);
             this.ReadQRbutton.Name = "ReadQRbutton";
             this.ReadQRbutton.Size = new System.Drawing.Size(159, 43);
             this.ReadQRbutton.TabIndex = 4;
@@ -131,8 +132,9 @@
             // ReadQRtextBox
             // 
             this.ReadQRtextBox.Location = new System.Drawing.Point(852, 342);
+            this.ReadQRtextBox.Multiline = true;
             this.ReadQRtextBox.Name = "ReadQRtextBox";
-            this.ReadQRtextBox.Size = new System.Drawing.Size(321, 22);
+            this.ReadQRtextBox.Size = new System.Drawing.Size(321, 51);
             this.ReadQRtextBox.TabIndex = 8;
             // 
             // QRtimer
